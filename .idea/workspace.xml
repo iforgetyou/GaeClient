@@ -45,21 +45,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\target\GaeClient-1.0-SNAPSHOT.ap_" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\target\GaeClient.apk.res" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\target\classes.dex" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/GaeClient/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/GaeClient/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java" afterPath="$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/GaeClient/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/example/GaeClient/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/GaeClient/R.java" afterPath="$PROJECT_DIR$/gen/com/example/GaeClient/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GaeClient.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../helloorm/build.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379660198062" ignored="false" />
     <file path="/build.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379660171098" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy4660776767265905151tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379660277112" ignored="false" />
-    <file path="/MyActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381813973922" ignored="false" />
+    <file path="/MyActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381818180172" ignored="false" />
     <file path="/main.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379666094692" ignored="false" />
     <file path="/Applications/adt-bundle-mac-x86_64-20130911/sdk/tools/ant/build.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665359311" ignored="false" />
     <file path="/Activity02.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665438746" ignored="false" />
@@ -75,7 +72,7 @@
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy4235515980846708592tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665959275" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy6453370548876882574tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379666104373" ignored="false" />
     <file path="/RESTService.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379681085825" ignored="false" />
-    <file path="/Dummy.txt" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381813620669" ignored="false" />
+    <file path="/Dummy.txt" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381814855901" ignored="false" />
     <file path="$PROJECT_DIR$/../rest_service_tutorial/gen/net/neilgoodman/android/restservicetutorial/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379682226910" ignored="false" />
     <file path="/a.dummy" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381798232426" ignored="false" />
     <file path="/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381805142458" ignored="false" />
@@ -89,8 +86,10 @@
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8914020697326471973tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381805528334" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8440646618796623125tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381805548934" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8727135621709291668tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381806251665" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/protocsrc/com/zy17/protobuf/domain/AddressBookProtos.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381813845101" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/protocsrc/com/zy17/protobuf/domain/AddressBookProtos.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381817236382" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4456958628204676240tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381813990223" ignored="false" />
+    <file path="/GaeClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381818106639" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/test/ApacheHttpRestClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381816712344" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java" line="14" class="com.example.GaeClient.GaeClient" package="com.example.GaeClient">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java" line="18" class="com.example.GaeClient.GaeClient" package="com.example.GaeClient">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -161,7 +160,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/BinaryHttpResponseHandler.java" line="115" class="com.loopj.android.http.BinaryHttpResponseHandler" package="com.loopj.android.http">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" line="95" class="com.example.GaeClient.MyActivity" package="com.example.GaeClient">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -176,7 +175,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" line="82" class="com.example.GaeClient.MyActivity" package="com.example.GaeClient">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" line="76" class="com.example.GaeClient.MyActivity$2" package="com.example.GaeClient">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -206,7 +205,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" line="63" class="com.example.GaeClient.MyActivity$1" package="com.example.GaeClient">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" line="58" class="com.example.GaeClient.MyActivity$1" package="com.example.GaeClient">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/AsyncHttpClient.java" line="552" class="com.loopj.android.http.AsyncHttpClient" package="com.loopj.android.http">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -236,6 +250,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" line="65" class="com.example.GaeClient.MyActivity$2" package="com.example.GaeClient">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -249,11 +278,11 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="7" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
+            <state line="49" column="20" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3852#5524#0" expanded="true" />
-                <element signature="e#5517#5518#0" expanded="true" />
+                <element signature="e#4492#6164#0" expanded="true" />
+                <element signature="e#6157#6158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -262,7 +291,7 @@
       <file leaf-file-name="BinaryHttpResponseHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/BinaryHttpResponseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="15" selection-start="3080" selection-end="3080" vertical-scroll-proportion="0.0">
+            <state line="156" column="35" selection-start="5208" selection-end="5208" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#6689#0" expanded="true" />
               </folding>
@@ -273,62 +302,19 @@
       <file leaf-file-name="AsyncHttpResponseHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/AsyncHttpResponseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="39" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.0">
+            <state line="63" column="8" selection-start="2092" selection-end="2092" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Handler.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/os/Handler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="-5.64">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Override.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar!/java/lang/Override.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RESTService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/neilgoodman/android/restservicetutorial/service/RESTService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddressBookProtos.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain/AddressBookProtos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="34" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.14361702">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GaeClient.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GaeClient.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="8" column="30" selection-start="183" selection-end="214" vertical-scroll-proportion="0.7592593">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -336,7 +322,7 @@
       <file leaf-file-name="AsyncHttpClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/AsyncHttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="299" column="0" selection-start="12265" selection-end="12265" vertical-scroll-proportion="0.0">
+            <state line="441" column="82" selection-start="19421" selection-end="19421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -373,6 +359,7 @@
         <option value="$PROJECT_DIR$/src/domain/AddressBookProtos.java" />
         <option value="$PROJECT_DIR$/src/com/zy17/protobuf/domain/AddressBookProtos.java" />
         <option value="$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java" />
       </list>
     </option>
   </component>
@@ -949,8 +936,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="1024" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="1024" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="824" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -960,19 +947,19 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25123557" sideWeight="0.66043955" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989011" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33186814" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33956045" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5472528" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5472528" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7438221" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27100495" sideWeight="0.6010989" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25947282" sideWeight="0.45274726" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25947282" sideWeight="0.45274726" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33186814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.67107946" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1055,44 +1042,9 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="782" column="6" selection-start="38897" selection-end="38960" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="28" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/GaeClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="127" selection-end="127" vertical-scroll-proportion="0.08622754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/app/Instrumentation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="35" selection-start="5982" selection-end="5982" vertical-scroll-proportion="0.35253456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="48" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.020737328">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar!/java/lang/Override.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1104,72 +1056,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/os/Handler.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="-5.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/AsyncHttpResponseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="39" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/BinaryHttpResponseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="15" selection-start="3080" selection-end="3080" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#6689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/neilgoodman/android/restservicetutorial/service/RESTService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/AsyncHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="299" column="0" selection-start="12265" selection-end="12265" vertical-scroll-proportion="0.0">
+        <state line="35" column="29" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain/AddressBookProtos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+        <state line="6" column="29" selection-start="193" selection-end="193" vertical-scroll-proportion="0.2393617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/neilgoodman/android/restservicetutorial/service/RESTService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.28723404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar!/java/lang/Override.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="306" selection-end="306" vertical-scroll-proportion="0.3202033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar!/org/apache/http/message/AbstractHttpMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="16" selection-start="3918" selection-end="3918" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/content/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="167" selection-end="167" vertical-scroll-proportion="0.21634616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="548" selection-end="628" vertical-scroll-proportion="1.327189">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/RequestParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="74" selection-start="7839" selection-end="7839" vertical-scroll-proportion="0.15815085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar!/org/apache/http/HttpEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="17" selection-start="3024" selection-end="3024" vertical-scroll-proportion="1.7245508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/AsyncHttpResponseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="8" selection-start="2092" selection-end="2092" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/BinaryHttpResponseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="35" selection-start="5208" selection-end="5208" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#6689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/AsyncHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="441" column="82" selection-start="19421" selection-end="19421" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
+        <state line="49" column="20" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3852#5524#0" expanded="true" />
-            <element signature="e#5517#5518#0" expanded="true" />
+            <element signature="e#4492#6164#0" expanded="true" />
+            <element signature="e#6157#6158#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="34" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.14361702">
-          <folding />
+        <state line="8" column="30" selection-start="183" selection-end="214" vertical-scroll-proportion="0.7592593">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

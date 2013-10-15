@@ -2,7 +2,6 @@ package com.example.GaeClient;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.os.Message;
 import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
@@ -10,19 +9,10 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.google.protobuf.InvalidProtocolBufferException;
-import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.BinaryHttpResponseHandler;
 import com.zy17.protobuf.domain.AddressBookProtos;
-import net.neilgoodman.android.restservicetutorial.service.RESTService;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
+import org.apache.http.entity.ByteArrayEntity;
 
-import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -46,57 +36,79 @@ public class MyActivity extends Activity {
         }
         mTextView = (TextView) this.findViewById(R.id.TextView_HTTP);
 
-        String[] allowedContentTypes = new String[] { "image/png", "image/jpeg" ,"application/x-protobuf;charset=UTF-8"};
+        String[] allowedContentTypes = new String[]{"image/png", "image/jpeg", "application/x-protobuf;charset=UTF-8"};
+        AddressBookProtos.Person john = AddressBookProtos.Person.newBuilder()
+                .setId(1234)
+                .setName("John Doe")
+                .setEmail("jdoe@example.com")
+                .addPhone(
+                        AddressBookProtos.Person.PhoneNumber.newBuilder()
+                                .setNumber("555-4321")
+                                .setType(AddressBookProtos.Person.PhoneType.HOME))
+                .build();
+        ByteArrayEntity entity = new ByteArrayEntity(john.toByteArray());
+        GaeClient.post("/message/person", entity, new BinaryHttpResponseHandler(allowedContentTypes) {
+            @Override
+            public void onSuccess(int statusCode, byte[] binaryData) {
+                super.onSuccess(statusCode, binaryData);
+                Log.d(TAG, "post success and statusCode is " + statusCode);
+            }
+
+            @Override
+            public void onFailure(Throwable e, byte[] imageData) {
+                super.onFailure(e, imageData);
+            }
+        });
+
         GaeClient.get("/message/person", null, new BinaryHttpResponseHandler(allowedContentTypes) {
             @Override
             public void onSuccess(int statusCode, byte[] binaryData) {
                 super.onSuccess(statusCode, binaryData);
                 try {
                     AddressBookProtos.PersonList personList = AddressBookProtos.PersonList.parseFrom(binaryData);
-                    Log.d(TAG, personList.toString() );
+                    Log.d(TAG, personList.toString());
                 } catch (InvalidProtocolBufferException e) {
-                    Log.e(TAG,"解析返回数据异常",e);
+                    Log.e(TAG, "解析返回数据异常", e);
                 }
             }
 
             @Override
             public void onFailure(Throwable e, byte[] imageData) {
-                super.onFailure(e,imageData);
+                super.onFailure(e, imageData);
             }
         });
-        Log.d(TAG, "Execute finished" );
+        Log.d(TAG, "Execute finished");
 
-        // http地址
-        String httpUrl = "http://iforgetyou529.appsp0t.com/message/person";
-        // HttpGet连接对象
-        HttpGet httpRequest = new HttpGet(httpUrl);
-        try {
-            // 取得HttpClient对象
-            HttpClient httpclient = new DefaultHttpClient();
-            // 请求HttpClient，取得HttpResponse
-            HttpResponse httpResponse = httpclient.execute(httpRequest);
-            // 请求成功
-            if (httpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-                // 取得返回的字符串
-                String strResult = EntityUtils.toString(httpResponse
-                        .getEntity());
-                Log.d(TAG, "httpResponse:" +httpResponse);
-                mTextView.setText(strResult);
-            } else {
-                mTextView.setText("请求错误!");
-            }
-        } catch (ClientProtocolException e) {
-            mTextView.setText(e.getMessage().toString());
-        } catch (IOException e) {
-            mTextView.setText(e.getMessage().toString());
-        } catch (Exception e) {
-            mTextView.setText(e.getMessage().toString());
-        }
+//        // http地址
+//        String httpUrl = "http://iforgetyou529.appsp0t.com/message/person";
+//        // HttpGet连接对象
+//        HttpGet httpRequest = new HttpGet(httpUrl);
+//        try {
+//            // 取得HttpClient对象
+//            HttpClient httpclient = new DefaultHttpClient();
+//            // 请求HttpClient，取得HttpResponse
+//            HttpResponse httpResponse = httpclient.execute(httpRequest);
+//            // 请求成功
+//            if (httpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
+//                // 取得返回的字符串
+//                String strResult = EntityUtils.toString(httpResponse
+//                        .getEntity());
+//                Log.d(TAG, "httpResponse:" + httpResponse);
+//                mTextView.setText(strResult);
+//            } else {
+//                mTextView.setText("请求错误!");
+//            }
+//        } catch (ClientProtocolException e) {
+//            mTextView.setText(e.getMessage().toString());
+//        } catch (IOException e) {
+//            mTextView.setText(e.getMessage().toString());
+//        } catch (Exception e) {
+//            mTextView.setText(e.getMessage().toString());
+//        }
 
 //        getbutton = (Button) this.findViewById(R.id.getbutton);
 //        getbutton.setOnClickListener(listener);
     }
-
 
 
     private View.OnClickListener listener = new View.OnClickListener() {
