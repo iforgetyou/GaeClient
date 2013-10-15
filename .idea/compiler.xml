@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/gen/com/example/GaeClient/BuildConfig.java" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
@@ -20,7 +21,17 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="GaeClient" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="GaeClient" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
