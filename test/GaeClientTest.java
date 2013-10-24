@@ -1,4 +1,4 @@
-import com.example.GaeClient.GaeClient;
+import com.example.GaeClient.http.GaeClient;
 import com.loopj.android.http.BinaryHttpResponseHandler;
 import org.json.JSONException;
 import org.junit.Test;
