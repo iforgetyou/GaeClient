@@ -40,52 +40,48 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="com.example.GaeClient" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="com.zy17" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/GaeClient/VoiceActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/voice_demo.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/GaeClient_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/GaeClient_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/neilgoodman/android/restservicetutorial/service/RESTService.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/eagle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/peacock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ui/BirdActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ui/BirdMenuFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nostra13_universalimageloader_universal_image_loader_1_8_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/MyApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/array.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/crittercism_v3_0_3_sdkonly.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/grid_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/list.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/list_grid.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/listcard.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/menu_frame.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/responsive_content_frame.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/shadow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/testlayout.xml" />
+      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\gen\com\example\GaeClient\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\gen\com\example\GaeClient\Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\gen\com\example\GaeClient\R.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\src\com\example\GaeClient\VoiceActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/protobuf/domain/AddressBookProtos.java" afterPath="$PROJECT_DIR$/src/com/zy17/protobuf/domain/AddressBookProtos.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java" afterPath="$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeClient.iml" afterPath="$PROJECT_DIR$/GaeClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/GaeClientTest.java" afterPath="$PROJECT_DIR$/test/GaeClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_android_4_0_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_android_4_0_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_support_v4_r6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_support_v4_r6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_loopj_android_android_async_http_1_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_loopj_android_android_async_http_1_4_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_khronos_opengl_api_gl1_1_android_2_1_r1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_khronos_opengl_api_gl1_1_android_2_1_r1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant.properties" afterPath="$PROJECT_DIR$/ant.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/GaeClient/http/GaeClient.java" afterPath="$PROJECT_DIR$/src/com/example/GaeClient/http/GaeClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard-project.txt" afterPath="$PROJECT_DIR$/proguard-project.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\workspace\GitHub\GaeClient\res\layout\voice_demo.xml" afterPath="$PROJECT_DIR$/res/layout/createcard.xml" />
     </list>
     <ignored path="GaeClient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,9 +92,9 @@
     <file path="/main.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603110285" ignored="false" />
     <file path="/Applications/adt-bundle-mac-x86_64-20130911/sdk/tools/ant/build.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665359311" ignored="false" />
     <file path="/Activity02.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665438746" ignored="false" />
-    <file path="/fragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627865658" ignored="false" />
+    <file path="/fragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383208267491" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy3921721472909743142tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665460045" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382623685890" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383212542669" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy6465784020806217031tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665492578" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy114567331642162429tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665615076" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy7974752741705376305tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665737339" ignored="false" />
@@ -108,10 +104,10 @@
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy4235515980846708592tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665959275" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy6453370548876882574tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379666104373" ignored="false" />
     <file path="/RESTService.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379681085825" ignored="false" />
-    <file path="/Dummy.txt" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382628020236" ignored="false" />
+    <file path="/Dummy.txt" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383211513502" ignored="false" />
     <file path="$PROJECT_DIR$/../rest_service_tutorial/gen/net/neilgoodman/android/restservicetutorial/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379682226910" ignored="false" />
-    <file path="/a.dummy" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381798232426" ignored="false" />
-    <file path="/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381805142458" ignored="false" />
+    <file path="/a.dummy" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383210097765" ignored="false" />
+    <file path="/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202019013" ignored="false" />
     <file path="$PROJECT_DIR$/../HelloMavenAndroid/target/generated-sources/r/com/study/android/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381745003952" ignored="false" />
     <file path="$PROJECT_DIR$/../HelloMavenAndroid/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381745024409" ignored="false" />
     <file path="$PROJECT_DIR$/../HelloMavenAndroid/src/main/java/com/study/android/HelloAndroidActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381745134068" ignored="false" />
@@ -122,14 +118,13 @@
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8914020697326471973tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381805528334" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8440646618796623125tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381805548934" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8727135621709291668tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381806251665" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/protocsrc/com/zy17/protobuf/domain/AddressBookProtos.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381817236382" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/protocsrc/com/zy17/protobuf/domain/AddressBookProtos.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383113986698" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4456958628204676240tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381813990223" ignored="false" />
     <file path="/GaeClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381818106639" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/test/ApacheHttpRestClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/test/ApacheHttpRestClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383211523321" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3243665597218570935tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382602930522" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6873066365121464361tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603367071" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5259900111254808282tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603598471" ignored="false" />
-    <file path="$PROJECT_DIR$/../SlidingMenu/library/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603815369" ignored="false" />
     <file path="$PROJECT_DIR$/../SlidingMenu/example/src/com/jeremyfeinstein/slidingmenu/example/BaseActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603815368" ignored="false" />
     <file path="$PROJECT_DIR$/../SlidingMenu/library-maps-support/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603815369" ignored="false" />
     <file path="$PROJECT_DIR$/../SlidingMenu/example/src/com/jeremyfeinstein/slidingmenu/example/Util.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603815368" ignored="false" />
@@ -151,12 +146,11 @@
     <file path="D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/samples/android-17/VoiceRecognitionService/gen/com/example/android/voicerecognitionservice/Manifest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382606634213" ignored="false" />
     <file path="D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/samples/android-17/VoiceRecognitionService/gen/com/example/android/voicerecognitionservice/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382606881858" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6160977252418088574tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382607220413" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/GaeClient/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382607221421" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy3422930832259417754tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382623475932" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy249982749517379237tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382623595112" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy7240709523132844756tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382624420762" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy226472057995741497tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382624527839" ignored="false" />
-    <file path="/VoiceActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382628097824" ignored="false" />
+    <file path="/VoiceActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052119733" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy3748736396110715093tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382624985543" ignored="false" />
     <file path="/voice_demo.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382626757113" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy8199388828746817522tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382625541761" ignored="false" />
@@ -164,12 +158,132 @@
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy7230171132259840344tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382626949744" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy629039998007043866tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627339337" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/dao/impl/BaseDaoImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838071" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/CardController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838071" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/CardController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383117257733" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/dao/impl/PersonDaoImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838071" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/dao/impl/CardDaoImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/war/WEB-INF/web.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/MessageController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/protobufview/PBMessageConverter.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
+    <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy5861725758350218212tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383051277060" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/example/gen/com/slidingmenu/example/R.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052070153" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/example/gen/com/slidingmenu/example/Manifest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052070153" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-sw600dp/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664431" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/app/SherlockFragmentActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664431" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/app/ActionBar.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664431" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__strings.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664431" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/app/SherlockActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664431" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664431" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__styles.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664431" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__config.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664431" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/view/Menu.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__colors.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__attrs.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__ids.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__themes.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values/abs__bools.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/view/MenuItem.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-large/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-land/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-v14/abs__styles.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664432" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-v14/abs__themes.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/internal/ResourcesCompat.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-v11/abs__themes.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/internal/ActionBarSherlockNative.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-xlarge/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-w600dp/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/internal/ActionBarSherlockCompat.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-w500dp/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-w480dp/abs__bools.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-w480dp/abs__config.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-w360dp/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664433" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/app/SherlockDialogFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/app/SherlockPreferenceActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/com/actionbarsherlock/ActionBarSherlock.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-large-land-mdpi-1024x600/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-large-land-hdpi-1024x600/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/src/android/support/v4/app/Watson.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-large-mdpi-1024x600/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-large-hdpi-1024x600/abs__dimens.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/res/values-sw600dp/abs__bools.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/test/com/actionbarsherlock/internal/ManifestParsingTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052664434" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052665961" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/abs/project.properties" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052665961" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/library/gen/com/slidingmenu/lib/Manifest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052667822" ignored="false" />
+    <file path="/ListViewLoader.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383124927103" ignored="false" />
+    <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy2988744721057995436tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383053210314" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/library/src/com/slidingmenu/lib/app/SlidingMapActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383054163763" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu/example/gen/com/slidingmenu/example/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383054323389" ignored="false" />
+    <file path="/strings.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383206571431" ignored="false" />
+    <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy1446609476277153605tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383055855796" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7585988920591550343tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383094001578" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2827519343705239364tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383095193836" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2660227190913577954tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383095710304" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5244024667008972526tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383101290460" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/filter/UploadPost.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383114519824" ignored="false" />
+    <file path="/UploadPost.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383114055421" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/test/PersonJsonTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383103744981" ignored="false" />
+    <file path="/PersonJsonTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383103743109" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/protobuf/Card.proto" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383113978668" ignored="false" />
+    <file path="/Card.proto" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383113975916" ignored="false" />
+    <file path="$USER_HOME$/Documents/Tencent Files/254360451/FileRecv/RCDemo/src/Test1.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383110592661" ignored="false" />
+    <file path="$USER_HOME$/Documents/Tencent Files/254360451/FileRecv/RCDemo/src/Test.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383118680219" ignored="false" />
+    <file path="/Test1.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383110588758" ignored="false" />
+    <file path="/Test.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383117925344" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/protocsrc/com/zy17/protobuf/domain/Eng.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383113986698" ignored="false" />
+    <file path="/ApacheHttpRestClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383114081964" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/domain/CardDomain.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383119937048" ignored="false" />
+    <file path="/CardDomain.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383114237469" ignored="false" />
+    <file path="/CardController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383116261413" ignored="false" />
+    <file path="/SendMessageUtil.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383119710596" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7380939261740711570tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383119570119" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3977579022551871666tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383124743157" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0/MainActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383184219589" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$1/SampleListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383183633696" ignored="false" />
+    <file path="/MainActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383184217893" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/ResponsiveUIActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
+    <file path="/ResponsiveUIActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383189144707" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$1/MainActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383184309092" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ResponsiveUI/src/com/yangyu/myslidingmenudemo05/SampleListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383204991531" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/SampleListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/res/values/array.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383188640199" ignored="false" />
+    <file path="/array.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383209836913" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/BirdMenuFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
+    <file path="/BirdMenuFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383210320942" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/BirdGridFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383189072002" ignored="false" />
+    <file path="/BirdGridFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383211489847" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/EngMenuFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383197937245" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/EngFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383191916347" ignored="false" />
+    <file path="/EngMenuFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383197935573" ignored="false" />
+    <file path="/EngFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383191916688" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/EngListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383200265668" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/res/layout/list_card.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383197766639" ignored="false" />
+    <file path="/EngListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383198546865" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/com/zy17/MyApplication.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202338474" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202042567" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/example/project.properties" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202184178" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/library/project.properties" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202141394" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/abs/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202152764" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/src/com/slidingmenu/example/ExampleListActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383203300791" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/example/src/com/slidingmenu/example/ExampleListActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383203310066" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383203588320" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/example/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383203616493" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/example/src/com/zy17/MyApplication.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383204412985" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ResponsiveUI/project.properties" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383203998576" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/example/project.properties" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383204171159" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ResponsiveUI/src/com/yangyu/myslidingmenudemo05/MainActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383205021949" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu/abs/project.properties" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383204789317" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/abs/gen/com/actionbarsherlock/Manifest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383209020131" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/abs/gen/com/actionbarsherlock/R.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383209020131" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/abs/gen/com/actionbarsherlock/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383209036271" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SlidingMenu1/library/gen/com/slidingmenu/lib/R.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383209188341" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5879294907357940848tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383209708568" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6126617660993542798tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383210280924" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/example/GaeClient/http/SendMessageUtil.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383210445034" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3534956702593326193tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383210495495" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5496085214568548466tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383211578953" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3069777448788072492tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383212559790" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +301,39 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java" line="57" class="com.example.GaeClient.ListViewLoader" package="com.example.GaeClient">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/BirdMenuFragment.java" line="32" class="com.zy17.ui.BirdMenuFragment" package="com.zy17.ui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -223,8 +370,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -234,32 +379,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VoiceActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/GaeClient/VoiceActivity.java">
+      <file leaf-file-name="CreateCardActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="36" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.58577406">
+            <state line="26" column="22" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="voice_demo.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/voice_demo.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
+      <file leaf-file-name="BirdMenuFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/BirdMenuFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="33" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+        </entry>
+      </file>
+      <file leaf-file-name="BirdActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/BirdActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="25" selection-start="553" selection-end="565" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="21" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="46" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+            <state line="21" column="19" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.7961956">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/MyApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="51" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponsiveUIActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="30" selection-start="2937" selection-end="2937" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -282,22 +468,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/GaeClient/RESTService.java" />
-        <option value="$PROJECT_DIR$/GaeClient.iml" />
-        <option value="$PROJECT_DIR$/test/GaeClient.java" />
-        <option value="$PROJECT_DIR$/test/com/example/GaeClient/GaeClient.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/protocsrc/com/zy17/protobuf/domain/AddressBookProtos.java" />
-        <option value="$PROJECT_DIR$/src/domain/AddressBookProtos.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/protobuf/domain/AddressBookProtos.java" />
-        <option value="$PROJECT_DIR$/src/com/example/GaeClient/GaeClient.java" />
-        <option value="$PROJECT_DIR$/test/GaeClientTest.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/GaeClient/MyActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/voice_demo.xml" />
-        <option value="$PROJECT_DIR$/src/com/zy17/protobuf/domain/ContentType.proto" />
+        <option value="$PROJECT_DIR$/res/layout/createcard.xml" />
+        <option value="$PROJECT_DIR$/src/com/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/ResponsiveUIActivity.java" />
+        <option value="$PROJECT_DIR$/../SlidingMenu/library/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/ui/BirdActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/GaeClient/ListViewLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/GaeClient/VoiceActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/array.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/GaeClient/CreateCardActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/ui/BirdMenuFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/MyApplication.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -373,8 +559,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1298" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -422,7 +610,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,66 +618,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaeClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaeClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaeClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaeClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaeClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaeClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaeClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
@@ -499,31 +633,37 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="android.dex.compiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SlidingMenu1/example/libs/crittercism_v3_0_3_sdkonly.jar!/" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="326" />
-    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.3167464" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zy17.ui" />
+      <recent name="com" />
       <recent name="com.zy17.protobuf.domain" />
       <recent name="domain" />
       <recent name="protocsrc.com.zy17.protobuf.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\GitHub\GaeClient\test" />
-      <recent name="E:\workspace\GitHub\GaeClient" />
+      <recent name="E:\workspace\GitHub\GaeClient\res\drawable" />
+      <recent name="E:\workspace\GitHub\GaeClient\res\layout" />
+      <recent name="E:\workspace\GitHub\GaeClient\res\values" />
+      <recent name="E:\workspace\GitHub\GaeClient\res\" />
+      <recent name="E:\workspace\GitHub\GaeClient\res\drawable-hdpi" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zy17" />
       <recent name="com.example.GaeClient" />
     </key>
   </component>
@@ -607,6 +747,24 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -627,24 +785,6 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -740,7 +880,7 @@
     </configuration>
     <configuration default="false" name="VoiceActivity" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="GaeClient" />
-      <option name="ACTIVITY_CLASS" value="com.example.GaeClient.VoiceActivity" />
+      <option name="ACTIVITY_CLASS" value="com.zy17.ui.CreateCardActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
@@ -825,39 +965,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1298" height="994" extended-state="6" />
+    <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2676519" sideWeight="0.6619718" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2224959" sideWeight="0.6619718" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.67107946" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25123557" sideWeight="0.66043955" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398167" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33186814" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2504105" sideWeight="0.6126761" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3975" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5468432" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7438221" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44125" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.74332976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2705443" sideWeight="0.6364562" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2588047" sideWeight="0.6707317" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36354378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40691927" sideWeight="0.61375" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="824" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32604057" sideWeight="0.6364562" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27267876" sideWeight="0.6364562" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.67107946" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33956045" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -895,7 +1035,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -976,102 +1116,131 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/voice_demo.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/../SlidingMenu/library/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/menu_frame.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="43" selection-start="227" selection-end="227" vertical-scroll-proportion="-3.6923077">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="69" selection-end="74" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/VoiceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="554" selection-end="554" vertical-scroll-proportion="0.22689076">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="22" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/BirdMenuFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="33" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="41" selection-start="2477" selection-end="2477" vertical-scroll-proportion="0.27173913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/support-v4/r6/support-v4-r6.jar!/android/support/v4/app/Fragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.1904762">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SlidingMenu1/library/src/com/slidingmenu/lib/app/SlidingFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.33286518">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="21" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="66" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.39325842">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1299#1706#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="51" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="30" selection-start="2937" selection-end="2937" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/BirdActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="553" selection-end="565" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/example/GaeClient/MyActivityBackup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/GaeClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/GaeClient/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="58" selection-end="58" vertical-scroll-proportion="0.15062761" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/speech/RecognizerIntent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="58" selection-start="524" selection-end="524" vertical-scroll-proportion="0.43085107" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="37" selection-start="530" selection-end="530" vertical-scroll-proportion="0.8551069" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.0.1.2/android-4.0.1.2.jar!/android/content/pm/PackageManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="67" selection-start="9069" selection-end="9069" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/adt-bundle-mac-x86_64-20130911/sdk/platforms/android-18/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="67" selection-start="11271" selection-end="11271" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/adt-bundle-mac-x86_64-20130911/sdk/platforms/android-18/android.jar!/android/R.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="558" column="55" selection-start="40267" selection-end="40267" vertical-scroll-proportion="0.5781084" />
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/adt-bundle-mac-x86_64-20130911/sdk/platforms/android-18/android.jar!/android/widget/AdapterView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.19447397" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/voice_demo.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="706" column="21" selection-start="23287" selection-end="23287" vertical-scroll-proportion="0.33297986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/GaeClient/VoiceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="36" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.58577406">
+        <state line="21" column="19" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.7961956">
           <folding />
         </state>
       </provider>
@@ -1106,7 +1275,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v4</last-edited>
+          <last-edited>servlet-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1118,7 +1287,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 4.3 Platform</last-edited>
+          <last-edited>Maven Android 4.0 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1154,7 +1323,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.google.android:android:4.0.1.2</last-edited>
+          <last-edited>crittercism_v3_0_3_sdkonly</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

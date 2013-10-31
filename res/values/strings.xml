@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="title">Eng</string>
     <string name="app_name">GaeClient</string>
+    <string name="attach">GaeClient</string>
+    <string name="soundButton">playSound</string>
 </resources>

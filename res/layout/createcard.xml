@@ -9,8 +9,7 @@
             android:layout_height="115dp"
             android:id="@+id/Answer"
             android:autoText="false"
-            android:textIsSelectable="false"
-            />
+            android:inputType="text"/>
 
     <!--android:background="@drawable/voic_img" -->
 
@@ -20,6 +19,11 @@
               android:layout_weight="1"
               android:choiceMode="singleChoice"/>
 
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="RecordSound"
+            android:id="@+id/recordButton" android:onClick="onRecordButtonClick"/>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
@@ -30,8 +34,7 @@
                 android:layout_width="181dp"
                 android:layout_height="wrap_content"
                 android:text="Speak Now~"
-                android:onClick="startVoiceRecognitionActivity"
-                android:layout_gravity="right|center_vertical"/>
+                android:layout_gravity="right|center_vertical" android:onClick="startVoiceRecognitionActivity"/>
 
         <Button
                 android:layout_width="fill_parent"

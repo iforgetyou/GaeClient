@@ -5,6 +5,10 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/gen/com/example/GaeClient/BuildConfig.java" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../SlidingMenu/library/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../SlidingMenu/actionbarsherlock/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../SlidingMenu1/abs/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../SlidingMenu1/library/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
