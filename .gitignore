@@ -17,3 +17,4 @@ out/res-cache/GaeClient/drawable-xhdpi/ic_launcher.png
 
 out/res-cache/GaeClient/drawable-mdpi/ic_launcher.png
 /target
+/out
