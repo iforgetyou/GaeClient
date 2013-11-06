@@ -5,6 +5,7 @@ import android.app.LoaderManager;
 import android.content.CursorLoader;
 import android.content.Loader;
 import android.database.Cursor;
+import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -78,8 +79,8 @@ public class ListViewLoader extends ListActivity
                 new int[]{R.id.EnglishAnswer, R.id.soundButton}) {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
-                // TODO Auto-generated method stub
-                final int mPosition = position;
+                // TODO Auto-generated method stubfinal int mPosition = position;
+
                 convertView = super.getView(position, convertView, parent);
                 Button soundButton = (Button) convertView
                         .findViewById(R.id.soundButton);// id为你自定义布局中按钮的id
@@ -95,6 +96,7 @@ public class ListViewLoader extends ListActivity
                 fromColumns, toViews, 0);
 //        mAdapter = new MyAdapter(this);
         setListAdapter(mAdapter);
+
 
         // Prepare the loader.  Either re-connect with an existing one,
         // or start a new one.

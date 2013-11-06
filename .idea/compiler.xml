@@ -9,6 +9,8 @@
       <directory url="file://$PROJECT_DIR$/../SlidingMenu/actionbarsherlock/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../../SlidingMenu1/abs/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../../SlidingMenu1/library/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../SlidingMenu/abs/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../SlidingMenu/library/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

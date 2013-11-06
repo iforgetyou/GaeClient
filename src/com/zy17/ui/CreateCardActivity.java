@@ -4,18 +4,24 @@ package com.zy17.ui;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.util.Log;
 import android.view.View;
+import android.webkit.MimeTypeMap;
 import android.widget.*;
 import com.actionbarsherlock.app.SherlockActivity;
-import com.example.GaeClient.http.SendMessageUtil;
+import com.zy17.GaeClient.http.SendMessageUtil;
 import com.zy17.R;
 import com.zy17.util.AudioMeter;
 
@@ -27,7 +33,7 @@ import java.util.Date;
 import java.util.List;
 
 
-public class CreateCardActivity  extends SherlockActivity {
+public class CreateCardActivity extends SherlockActivity {
 
     private volatile boolean isRecording;
     private static final int frequency = 8000;
@@ -35,16 +41,24 @@ public class CreateCardActivity  extends SherlockActivity {
     int bufferSize;
     AudioMeter recordInstance;
 
-    private static final int REQUEST_CODE = 1234;
+    private static final int RESULT_RECOGNIZER_CODE = 18181;
+    private static final int RESULT_LOAD_IMAGE = 17171;
+    private static final int RESULT_TAKE_PHOTO = 19191;
     private static final String TAG = CreateCardActivity.class.getName();
-    private static String mFileName = "";
+
     private ListView resultList;
     private MediaRecorder mRecorder = null;
     private MediaPlayer mPlayer = null;
     SpeechRecognizer speechRecognizer;
     Button speakButton;
     Button recordButton;
+    Button takePhoto;
+    Button addPhoto;
+
     TextView textView;
+    // 语音文件
+    private static String soundFileName = "";
+    private static String imageFilePath = "";
     boolean mStartRecording = true;
 
 
@@ -53,9 +67,11 @@ public class CreateCardActivity  extends SherlockActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.createcard);
 
+
         speakButton = (Button) findViewById(R.id.speakButton);
         recordButton = (Button) findViewById(R.id.recordButton);
-
+        addPhoto = (Button) findViewById(R.id.addPhoto);
+        takePhoto = (Button) findViewById(R.id.takePhoto);
         resultList = (ListView) findViewById(R.id.list);
 
         textView = (TextView) findViewById(R.id.Answer);
@@ -113,7 +129,7 @@ public class CreateCardActivity  extends SherlockActivity {
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "en-US");
 
 //        speechRecognizer.startListening(intent);
-        startActivityForResult(intent, REQUEST_CODE);
+        startActivityForResult(intent, RESULT_RECOGNIZER_CODE);
     }
 
 
@@ -170,12 +186,12 @@ public class CreateCardActivity  extends SherlockActivity {
         Log.d(TAG, "开始播放");
         SimpleDateFormat dateformat = new SimpleDateFormat("MMddHHmmss");
         String date = dateformat.format(new Date());
-        mFileName = getApplicationContext().getFilesDir().getAbsolutePath() + "/audio" + date + ".3gp";
-        Log.d(TAG, "mFileName path:" + mFileName);
+        soundFileName = getApplicationContext().getFilesDir().getAbsolutePath() + "/audio" + date + ".3gp";
+        Log.d(TAG, "soundFileName path:" + soundFileName);
         mRecorder = new MediaRecorder();
         mRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
         mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
-        mRecorder.setOutputFile(mFileName);
+        mRecorder.setOutputFile(soundFileName);
         mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
         try {
             mRecorder.prepare();
@@ -199,7 +215,7 @@ public class CreateCardActivity  extends SherlockActivity {
         mPlayer = new MediaPlayer();
         try {
             Log.d(TAG, "停止录音，开始播放");
-            mPlayer.setDataSource(mFileName);
+            mPlayer.setDataSource(soundFileName);
             mPlayer.prepare();
         } catch (IOException e) {
             Log.e(TAG, "mPlayer prepare failed", e);
@@ -207,24 +223,82 @@ public class CreateCardActivity  extends SherlockActivity {
         mPlayer.start();
     }
 
+    //    选择图片按钮
+    public void choosePhoto(View v) {
+//        final Intent galleryIntent = new Intent(Intent.ACTION_GET_CONTENT);
+//        galleryIntent.setType("images/*");
+        Intent galleryIntent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+
+        startActivityForResult(galleryIntent, RESULT_LOAD_IMAGE);
+    }
+
+    //    照相按钮
+    public void takePhoto(View v) throws IOException {
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        // Create an image file name
+
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        String _path = Environment.getExternalStorageDirectory() + File.separator + timeStamp + ".jpg";
+        File f = new File(_path);
+        imageFilePath = f.getAbsolutePath();
+        takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(f));
+        startActivityForResult(takePictureIntent, RESULT_TAKE_PHOTO);
+    }
+
+    //发送消息到服务端
     public void sendMessageToServer(View v) {
         if (textView.getText().toString().equals("")) {
             Toast.makeText(getApplicationContext(), "English anwser is blank", 1000).show();
             return;
         }
-        File file = new File(mFileName);
-        SendMessageUtil.sendCard(textView.getText().toString(), "", file, null);
+        File soundFile = null;
+        if (soundFileName != null && !soundFileName.equals("")) {
+            soundFile = new File(soundFileName);
+        }
+
+        File imageFile = null;
+        if (imageFilePath != null && !imageFilePath.equals("")) {
+            imageFile = new File(imageFilePath);
+        }
+        getMimeType(imageFilePath);
+        SendMessageUtil.sendCard(textView.getText().toString(), "", soundFile, imageFile);
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == REQUEST_CODE && resultCode == RESULT_OK) {
-            ArrayList<String> matches = data.getStringArrayListExtra(
-                    RecognizerIntent.EXTRA_RESULTS);
-            resultList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,
-                    matches));
+    protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
+
+        switch (requestCode) {
+            case RESULT_RECOGNIZER_CODE:
+                if (requestCode == RESULT_OK) {
+                    //            处理语音识别结果
+                    ArrayList<String> matches = intent.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+                    resultList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, matches));
+                }
+                break;
+            case RESULT_LOAD_IMAGE:
+                //处理选择相片结果
+                Uri selectedImage = intent.getData();
+                String[] filePathColumn = {MediaStore.Images.Media.DATA};
+
+                Cursor cursor = getContentResolver().query(
+                        selectedImage, filePathColumn, null, null, null);
+                cursor.moveToFirst();
+
+                int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
+                imageFilePath = cursor.getString(columnIndex);
+                cursor.close();
+//                Bitmap yourSelectedImage = BitmapFactory.decodeFile(imageFilePath);
+                break;
+            case RESULT_TAKE_PHOTO:
+//                照相处理
+//                intent.getData();
+//                Bundle extras = intent.getExtras();
+//                Bitmap bitMap = (Bitmap) extras.get("data");
+                break;
+            default:
+                break;
         }
-        super.onActivityResult(requestCode, resultCode, data);
+        super.onActivityResult(requestCode, resultCode, intent);
     }
 
 
@@ -237,7 +311,8 @@ public class CreateCardActivity  extends SherlockActivity {
         }
     }
 
-    private static int[] mSampleRates = new int[]{8000, 11025, 22050, 44100};
+
+//    private static int[] mSampleRates = new int[]{8000, 11025, 22050, 44100};
 //
 //    public AudioRecord findAudioRecord() {
 //        for (int rate : mSampleRates) {
@@ -264,4 +339,15 @@ public class CreateCardActivity  extends SherlockActivity {
 //        }
 //        return null;
 //    }
+
+    // url = file path or whatever suitable URL you want.
+    public static String getMimeType(String url) {
+        String type = null;
+        String extension = MimeTypeMap.getFileExtensionFromUrl(url);
+        if (extension != null) {
+            MimeTypeMap mime = MimeTypeMap.getSingleton();
+            type = mime.getMimeTypeFromExtension(extension);
+        }
+        return type;
+    }
 }

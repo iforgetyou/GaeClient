@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GaeClient.iml" filepath="$PROJECT_DIR$/GaeClient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../SlidingMenu1/abs/abs.iml" filepath="$PROJECT_DIR$/../../SlidingMenu1/abs/abs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SlidingMenu/abs/abs.iml" filepath="$PROJECT_DIR$/../../SlidingMenu/abs/abs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SlidingMenu/library/library.iml" filepath="$PROJECT_DIR$/../../SlidingMenu/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../SlidingMenu1/library/library.iml" filepath="$PROJECT_DIR$/../../SlidingMenu1/library/library.iml" />
     </modules>
   </component>

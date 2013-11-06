@@ -4,11 +4,13 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.StrictMode;
 import android.support.v4.app.Fragment;
 import android.view.MenuItem;
 import android.view.View;
 import com.slidingmenu.lib.SlidingMenu;
 import com.slidingmenu.lib.app.SlidingFragmentActivity;
+import com.zy17.GaeClient.http.CardController;
 import com.zy17.ui.BirdActivity;
 import com.zy17.ui.BirdGridFragment;
 import com.zy17.ui.BirdMenuFragment;
@@ -30,6 +32,20 @@ public class ResponsiveUIActivity extends SlidingFragmentActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+        if (false) {
+            StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+                    .detectDiskReads()
+                    .detectDiskWrites()
+                    .detectNetwork()   // or .detectAll() for all detectable problems
+                    .penaltyLog()
+                    .build());
+            StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
+                    .detectLeakedSqlLiteObjects()
+                    .detectLeakedClosableObjects()
+                    .penaltyLog()
+                    .penaltyDeath()
+                    .build());
+        }
 		super.onCreate(savedInstanceState);
 		setTitle(R.string.title);
 		setContentView(R.layout.responsive_content_frame);
@@ -72,7 +88,6 @@ public class ResponsiveUIActivity extends SlidingFragmentActivity {
 		sm.setShadowDrawable(R.drawable.shadow);
 		sm.setBehindScrollScale(0.25f);
 		sm.setFadeDegree(0.25f);
-
 	}
 
 

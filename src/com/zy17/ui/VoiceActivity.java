@@ -15,7 +15,7 @@ import android.speech.SpeechRecognizer;
 import android.util.Log;
 import android.view.View;
 import android.widget.*;
-import com.example.GaeClient.http.SendMessageUtil;
+import com.zy17.GaeClient.http.SendMessageUtil;
 import com.zy17.R;
 import com.zy17.util.AudioMeter;
 

@@ -1,7 +1,4 @@
-import com.example.GaeClient.http.GaeClient;
-import com.loopj.android.http.BinaryHttpResponseHandler;
-import org.json.JSONException;
-import org.junit.Test;
+import com.loopj.android.http.SyncHttpClient;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,14 +8,15 @@ import org.junit.Test;
  */
 public class GaeClientTest {
 
-    @Test
-    public void getTest() throws JSONException {
-        GaeClient.get("/message/person", null, new BinaryHttpResponseHandler() {
+    public static void main(String[] args) {
+        SyncHttpClient syncHttpClient = new SyncHttpClient() {
             @Override
-            public void onSuccess(int statusCode, byte[] binaryData) {
-                super.onSuccess(statusCode, binaryData);
-                System.out.println(statusCode);
+            public String onRequestFailed(Throwable error, String content) {
+                return null;
             }
-        });
+        };
+        String BASE_URL = "http://iforgetyou529.appsp0t.com/";
+        String s = syncHttpClient.get(BASE_URL + "/cards");
+        System.out.println(s);
     }
 }

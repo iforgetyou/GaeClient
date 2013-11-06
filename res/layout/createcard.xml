@@ -19,6 +19,21 @@
               android:layout_weight="1"
               android:choiceMode="singleChoice"/>
 
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginLeft="-2dp">
+        <Button
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Please add photo"
+                android:id="@+id/addPhoto" android:layout_gravity="left|center_vertical" android:onClick="choosePhoto"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="tack a photo"
+                android:id="@+id/takePhoto" android:layout_gravity="center" android:onClick="takePhoto"/>
+    </LinearLayout>
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

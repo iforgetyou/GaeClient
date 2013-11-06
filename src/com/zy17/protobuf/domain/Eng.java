@@ -14,14 +14,26 @@ public final class Eng {
     // required string engText = 1;
     /**
      * <code>required string engText = 1;</code>
+     *
+     * <pre>
+     *    required string id = 2;
+     * </pre>
      */
     boolean hasEngText();
     /**
      * <code>required string engText = 1;</code>
+     *
+     * <pre>
+     *    required string id = 2;
+     * </pre>
      */
     java.lang.String getEngText();
     /**
      * <code>required string engText = 1;</code>
+     *
+     * <pre>
+     *    required string id = 2;
+     * </pre>
      */
     com.google.protobuf.ByteString
         getEngTextBytes();
@@ -201,12 +213,20 @@ public final class Eng {
     private java.lang.Object engText_;
     /**
      * <code>required string engText = 1;</code>
+     *
+     * <pre>
+     *    required string id = 2;
+     * </pre>
      */
     public boolean hasEngText() {
       return ((bitField0_ & 0x00000001) == 0x00000001);
     }
     /**
      * <code>required string engText = 1;</code>
+     *
+     * <pre>
+     *    required string id = 2;
+     * </pre>
      */
     public java.lang.String getEngText() {
       java.lang.Object ref = engText_;
@@ -224,6 +244,10 @@ public final class Eng {
     }
     /**
      * <code>required string engText = 1;</code>
+     *
+     * <pre>
+     *    required string id = 2;
+     * </pre>
      */
     public com.google.protobuf.ByteString
         getEngTextBytes() {
@@ -662,12 +686,20 @@ public final class Eng {
       private java.lang.Object engText_ = "";
       /**
        * <code>required string engText = 1;</code>
+       *
+       * <pre>
+       *    required string id = 2;
+       * </pre>
        */
       public boolean hasEngText() {
         return ((bitField0_ & 0x00000001) == 0x00000001);
       }
       /**
        * <code>required string engText = 1;</code>
+       *
+       * <pre>
+       *    required string id = 2;
+       * </pre>
        */
       public java.lang.String getEngText() {
         java.lang.Object ref = engText_;
@@ -682,6 +714,10 @@ public final class Eng {
       }
       /**
        * <code>required string engText = 1;</code>
+       *
+       * <pre>
+       *    required string id = 2;
+       * </pre>
        */
       public com.google.protobuf.ByteString
           getEngTextBytes() {
@@ -698,6 +734,10 @@ public final class Eng {
       }
       /**
        * <code>required string engText = 1;</code>
+       *
+       * <pre>
+       *    required string id = 2;
+       * </pre>
        */
       public Builder setEngText(
           java.lang.String value) {
@@ -711,6 +751,10 @@ public final class Eng {
       }
       /**
        * <code>required string engText = 1;</code>
+       *
+       * <pre>
+       *    required string id = 2;
+       * </pre>
        */
       public Builder clearEngText() {
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -720,6 +764,10 @@ public final class Eng {
       }
       /**
        * <code>required string engText = 1;</code>
+       *
+       * <pre>
+       *    required string id = 2;
+       * </pre>
        */
       public Builder setEngTextBytes(
           com.google.protobuf.ByteString value) {
@@ -2347,50 +2395,20 @@ public final class Eng {
      */
     long getCreateDate();
 
-    // optional string servrul = 11;
+    // optional string servUrl = 11;
     /**
-     * <code>optional string servrul = 11;</code>
+     * <code>optional string servUrl = 11;</code>
      */
-    boolean hasServrul();
+    boolean hasServUrl();
     /**
-     * <code>optional string servrul = 11;</code>
+     * <code>optional string servUrl = 11;</code>
      */
-    java.lang.String getServrul();
+    java.lang.String getServUrl();
     /**
-     * <code>optional string servrul = 11;</code>
-     */
-    com.google.protobuf.ByteString
-        getServrulBytes();
-
-    // optional string revert1 = 13;
-    /**
-     * <code>optional string revert1 = 13;</code>
-     */
-    boolean hasRevert1();
-    /**
-     * <code>optional string revert1 = 13;</code>
-     */
-    java.lang.String getRevert1();
-    /**
-     * <code>optional string revert1 = 13;</code>
+     * <code>optional string servUrl = 11;</code>
      */
     com.google.protobuf.ByteString
-        getRevert1Bytes();
-
-    // optional string revert2 = 15;
-    /**
-     * <code>optional string revert2 = 15;</code>
-     */
-    boolean hasRevert2();
-    /**
-     * <code>optional string revert2 = 15;</code>
-     */
-    java.lang.String getRevert2();
-    /**
-     * <code>optional string revert2 = 15;</code>
-     */
-    com.google.protobuf.ByteString
-        getRevert2Bytes();
+        getServUrlBytes();
   }
   /**
    * Protobuf type {@code com.MediaBlobInfo}
@@ -2479,17 +2497,7 @@ public final class Eng {
             }
             case 90: {
               bitField0_ |= 0x00000040;
-              servrul_ = input.readBytes();
-              break;
-            }
-            case 106: {
-              bitField0_ |= 0x00000080;
-              revert1_ = input.readBytes();
-              break;
-            }
-            case 122: {
-              bitField0_ |= 0x00000100;
-              revert2_ = input.readBytes();
+              servUrl_ = input.readBytes();
               break;
             }
           }
@@ -2736,20 +2744,20 @@ public final class Eng {
       return createDate_;
     }
 
-    // optional string servrul = 11;
-    public static final int SERVRUL_FIELD_NUMBER = 11;
-    private java.lang.Object servrul_;
+    // optional string servUrl = 11;
+    public static final int SERVURL_FIELD_NUMBER = 11;
+    private java.lang.Object servUrl_;
     /**
-     * <code>optional string servrul = 11;</code>
+     * <code>optional string servUrl = 11;</code>
      */
-    public boolean hasServrul() {
+    public boolean hasServUrl() {
       return ((bitField0_ & 0x00000040) == 0x00000040);
     }
     /**
-     * <code>optional string servrul = 11;</code>
+     * <code>optional string servUrl = 11;</code>
      */
-    public java.lang.String getServrul() {
-      java.lang.Object ref = servrul_;
+    public java.lang.String getServUrl() {
+      java.lang.Object ref = servUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
@@ -2757,108 +2765,22 @@ public final class Eng {
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
-          servrul_ = s;
+          servUrl_ = s;
         }
         return s;
       }
     }
     /**
-     * <code>optional string servrul = 11;</code>
+     * <code>optional string servUrl = 11;</code>
      */
     public com.google.protobuf.ByteString
-        getServrulBytes() {
-      java.lang.Object ref = servrul_;
+        getServUrlBytes() {
+      java.lang.Object ref = servUrl_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        servrul_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    // optional string revert1 = 13;
-    public static final int REVERT1_FIELD_NUMBER = 13;
-    private java.lang.Object revert1_;
-    /**
-     * <code>optional string revert1 = 13;</code>
-     */
-    public boolean hasRevert1() {
-      return ((bitField0_ & 0x00000080) == 0x00000080);
-    }
-    /**
-     * <code>optional string revert1 = 13;</code>
-     */
-    public java.lang.String getRevert1() {
-      java.lang.Object ref = revert1_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          revert1_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string revert1 = 13;</code>
-     */
-    public com.google.protobuf.ByteString
-        getRevert1Bytes() {
-      java.lang.Object ref = revert1_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        revert1_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    // optional string revert2 = 15;
-    public static final int REVERT2_FIELD_NUMBER = 15;
-    private java.lang.Object revert2_;
-    /**
-     * <code>optional string revert2 = 15;</code>
-     */
-    public boolean hasRevert2() {
-      return ((bitField0_ & 0x00000100) == 0x00000100);
-    }
-    /**
-     * <code>optional string revert2 = 15;</code>
-     */
-    public java.lang.String getRevert2() {
-      java.lang.Object ref = revert2_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          revert2_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string revert2 = 15;</code>
-     */
-    public com.google.protobuf.ByteString
-        getRevert2Bytes() {
-      java.lang.Object ref = revert2_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        revert2_ = b;
+        servUrl_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -2872,9 +2794,7 @@ public final class Eng {
       contentType_ = "";
       fileSize_ = 0L;
       createDate_ = 0L;
-      servrul_ = "";
-      revert1_ = "";
-      revert2_ = "";
+      servUrl_ = "";
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -2931,13 +2851,7 @@ public final class Eng {
         output.writeInt64(9, createDate_);
       }
       if (((bitField0_ & 0x00000040) == 0x00000040)) {
-        output.writeBytes(11, getServrulBytes());
-      }
-      if (((bitField0_ & 0x00000080) == 0x00000080)) {
-        output.writeBytes(13, getRevert1Bytes());
-      }
-      if (((bitField0_ & 0x00000100) == 0x00000100)) {
-        output.writeBytes(15, getRevert2Bytes());
+        output.writeBytes(11, getServUrlBytes());
       }
       getUnknownFields().writeTo(output);
     }
@@ -2974,15 +2888,7 @@ public final class Eng {
       }
       if (((bitField0_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(11, getServrulBytes());
-      }
-      if (((bitField0_ & 0x00000080) == 0x00000080)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(13, getRevert1Bytes());
-      }
-      if (((bitField0_ & 0x00000100) == 0x00000100)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(15, getRevert2Bytes());
+          .computeBytesSize(11, getServUrlBytes());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -3116,12 +3022,8 @@ public final class Eng {
         bitField0_ = (bitField0_ & ~0x00000010);
         createDate_ = 0L;
         bitField0_ = (bitField0_ & ~0x00000020);
-        servrul_ = "";
+        servUrl_ = "";
         bitField0_ = (bitField0_ & ~0x00000040);
-        revert1_ = "";
-        bitField0_ = (bitField0_ & ~0x00000080);
-        revert2_ = "";
-        bitField0_ = (bitField0_ & ~0x00000100);
         return this;
       }
 
@@ -3177,15 +3079,7 @@ public final class Eng {
         if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
           to_bitField0_ |= 0x00000040;
         }
-        result.servrul_ = servrul_;
-        if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
-          to_bitField0_ |= 0x00000080;
-        }
-        result.revert1_ = revert1_;
-        if (((from_bitField0_ & 0x00000100) == 0x00000100)) {
-          to_bitField0_ |= 0x00000100;
-        }
-        result.revert2_ = revert2_;
+        result.servUrl_ = servUrl_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -3228,19 +3122,9 @@ public final class Eng {
         if (other.hasCreateDate()) {
           setCreateDate(other.getCreateDate());
         }
-        if (other.hasServrul()) {
+        if (other.hasServUrl()) {
           bitField0_ |= 0x00000040;
-          servrul_ = other.servrul_;
-          onChanged();
-        }
-        if (other.hasRevert1()) {
-          bitField0_ |= 0x00000080;
-          revert1_ = other.revert1_;
-          onChanged();
-        }
-        if (other.hasRevert2()) {
-          bitField0_ |= 0x00000100;
-          revert2_ = other.revert2_;
+          servUrl_ = other.servUrl_;
           onChanged();
         }
         this.mergeUnknownFields(other.getUnknownFields());
@@ -3656,224 +3540,76 @@ public final class Eng {
         return this;
       }
 
-      // optional string servrul = 11;
-      private java.lang.Object servrul_ = "";
+      // optional string servUrl = 11;
+      private java.lang.Object servUrl_ = "";
       /**
-       * <code>optional string servrul = 11;</code>
+       * <code>optional string servUrl = 11;</code>
        */
-      public boolean hasServrul() {
+      public boolean hasServUrl() {
         return ((bitField0_ & 0x00000040) == 0x00000040);
       }
       /**
-       * <code>optional string servrul = 11;</code>
+       * <code>optional string servUrl = 11;</code>
        */
-      public java.lang.String getServrul() {
-        java.lang.Object ref = servrul_;
+      public java.lang.String getServUrl() {
+        java.lang.Object ref = servUrl_;
         if (!(ref instanceof java.lang.String)) {
           java.lang.String s = ((com.google.protobuf.ByteString) ref)
               .toStringUtf8();
-          servrul_ = s;
+          servUrl_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>optional string servrul = 11;</code>
+       * <code>optional string servUrl = 11;</code>
        */
       public com.google.protobuf.ByteString
-          getServrulBytes() {
-        java.lang.Object ref = servrul_;
+          getServUrlBytes() {
+        java.lang.Object ref = servUrl_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          servrul_ = b;
+          servUrl_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>optional string servrul = 11;</code>
+       * <code>optional string servUrl = 11;</code>
        */
-      public Builder setServrul(
+      public Builder setServUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000040;
-        servrul_ = value;
+        servUrl_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional string servrul = 11;</code>
+       * <code>optional string servUrl = 11;</code>
        */
-      public Builder clearServrul() {
+      public Builder clearServUrl() {
         bitField0_ = (bitField0_ & ~0x00000040);
-        servrul_ = getDefaultInstance().getServrul();
+        servUrl_ = getDefaultInstance().getServUrl();
         onChanged();
         return this;
       }
       /**
-       * <code>optional string servrul = 11;</code>
+       * <code>optional string servUrl = 11;</code>
        */
-      public Builder setServrulBytes(
+      public Builder setServUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000040;
-        servrul_ = value;
-        onChanged();
-        return this;
-      }
-
-      // optional string revert1 = 13;
-      private java.lang.Object revert1_ = "";
-      /**
-       * <code>optional string revert1 = 13;</code>
-       */
-      public boolean hasRevert1() {
-        return ((bitField0_ & 0x00000080) == 0x00000080);
-      }
-      /**
-       * <code>optional string revert1 = 13;</code>
-       */
-      public java.lang.String getRevert1() {
-        java.lang.Object ref = revert1_;
-        if (!(ref instanceof java.lang.String)) {
-          java.lang.String s = ((com.google.protobuf.ByteString) ref)
-              .toStringUtf8();
-          revert1_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>optional string revert1 = 13;</code>
-       */
-      public com.google.protobuf.ByteString
-          getRevert1Bytes() {
-        java.lang.Object ref = revert1_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          revert1_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string revert1 = 13;</code>
-       */
-      public Builder setRevert1(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000080;
-        revert1_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string revert1 = 13;</code>
-       */
-      public Builder clearRevert1() {
-        bitField0_ = (bitField0_ & ~0x00000080);
-        revert1_ = getDefaultInstance().getRevert1();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string revert1 = 13;</code>
-       */
-      public Builder setRevert1Bytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000080;
-        revert1_ = value;
-        onChanged();
-        return this;
-      }
-
-      // optional string revert2 = 15;
-      private java.lang.Object revert2_ = "";
-      /**
-       * <code>optional string revert2 = 15;</code>
-       */
-      public boolean hasRevert2() {
-        return ((bitField0_ & 0x00000100) == 0x00000100);
-      }
-      /**
-       * <code>optional string revert2 = 15;</code>
-       */
-      public java.lang.String getRevert2() {
-        java.lang.Object ref = revert2_;
-        if (!(ref instanceof java.lang.String)) {
-          java.lang.String s = ((com.google.protobuf.ByteString) ref)
-              .toStringUtf8();
-          revert2_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>optional string revert2 = 15;</code>
-       */
-      public com.google.protobuf.ByteString
-          getRevert2Bytes() {
-        java.lang.Object ref = revert2_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          revert2_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string revert2 = 15;</code>
-       */
-      public Builder setRevert2(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000100;
-        revert2_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string revert2 = 15;</code>
-       */
-      public Builder clearRevert2() {
-        bitField0_ = (bitField0_ & ~0x00000100);
-        revert2_ = getDefaultInstance().getRevert2();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string revert2 = 15;</code>
-       */
-      public Builder setRevert2Bytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000100;
-        revert2_ = value;
+        servUrl_ = value;
         onChanged();
         return this;
       }
@@ -4578,40 +4314,25 @@ public final class Eng {
   public interface PbImageOrBuilder
       extends com.google.protobuf.MessageOrBuilder {
 
-    // required .com.MediaBlobInfo media = 1;
+    // required .com.MediaBlobInfo mediaInfo = 1;
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
-     *
-     * <pre>
-     *    通过blob的id能拼接出来
-     *    required string imageUrl=3;
-     * </pre>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    boolean hasMedia();
+    boolean hasMediaInfo();
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
-     *
-     * <pre>
-     *    通过blob的id能拼接出来
-     *    required string imageUrl=3;
-     * </pre>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    com.zy17.protobuf.domain.Eng.MediaBlobInfo getMedia();
+    com.zy17.protobuf.domain.Eng.MediaBlobInfo getMediaInfo();
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
-     *
-     * <pre>
-     *    通过blob的id能拼接出来
-     *    required string imageUrl=3;
-     * </pre>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaOrBuilder();
+    com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaInfoOrBuilder();
   }
   /**
    * Protobuf type {@code com.PbImage}
    *
    * <pre>
-   *图片 集成多媒体类型
+   *图片 继承多媒体类型
    * </pre>
    */
   public static final class PbImage extends
@@ -4665,12 +4386,12 @@ public final class Eng {
             case 10: {
               com.zy17.protobuf.domain.Eng.MediaBlobInfo.Builder subBuilder = null;
               if (((bitField0_ & 0x00000001) == 0x00000001)) {
-                subBuilder = media_.toBuilder();
+                subBuilder = mediaInfo_.toBuilder();
               }
-              media_ = input.readMessage(com.zy17.protobuf.domain.Eng.MediaBlobInfo.PARSER, extensionRegistry);
+              mediaInfo_ = input.readMessage(com.zy17.protobuf.domain.Eng.MediaBlobInfo.PARSER, extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(media_);
-                media_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(mediaInfo_);
+                mediaInfo_ = subBuilder.buildPartial();
               }
               bitField0_ |= 0x00000001;
               break;
@@ -4715,56 +4436,41 @@ public final class Eng {
     }
 
     private int bitField0_;
-    // required .com.MediaBlobInfo media = 1;
-    public static final int MEDIA_FIELD_NUMBER = 1;
-    private com.zy17.protobuf.domain.Eng.MediaBlobInfo media_;
+    // required .com.MediaBlobInfo mediaInfo = 1;
+    public static final int MEDIAINFO_FIELD_NUMBER = 1;
+    private com.zy17.protobuf.domain.Eng.MediaBlobInfo mediaInfo_;
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
-     *
-     * <pre>
-     *    通过blob的id能拼接出来
-     *    required string imageUrl=3;
-     * </pre>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    public boolean hasMedia() {
+    public boolean hasMediaInfo() {
       return ((bitField0_ & 0x00000001) == 0x00000001);
     }
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
-     *
-     * <pre>
-     *    通过blob的id能拼接出来
-     *    required string imageUrl=3;
-     * </pre>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    public com.zy17.protobuf.domain.Eng.MediaBlobInfo getMedia() {
-      return media_;
+    public com.zy17.protobuf.domain.Eng.MediaBlobInfo getMediaInfo() {
+      return mediaInfo_;
     }
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
-     *
-     * <pre>
-     *    通过blob的id能拼接出来
-     *    required string imageUrl=3;
-     * </pre>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    public com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaOrBuilder() {
-      return media_;
+    public com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaInfoOrBuilder() {
+      return mediaInfo_;
     }
 
     private void initFields() {
-      media_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
+      mediaInfo_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
       if (isInitialized != -1) return isInitialized == 1;
 
-      if (!hasMedia()) {
+      if (!hasMediaInfo()) {
         memoizedIsInitialized = 0;
         return false;
       }
-      if (!getMedia().isInitialized()) {
+      if (!getMediaInfo().isInitialized()) {
         memoizedIsInitialized = 0;
         return false;
       }
@@ -4776,7 +4482,7 @@ public final class Eng {
                         throws java.io.IOException {
       getSerializedSize();
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeMessage(1, media_);
+        output.writeMessage(1, mediaInfo_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -4789,7 +4495,7 @@ public final class Eng {
       size = 0;
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, media_);
+          .computeMessageSize(1, mediaInfo_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -4873,7 +4579,7 @@ public final class Eng {
      * Protobuf type {@code com.PbImage}
      *
      * <pre>
-     *图片 集成多媒体类型
+     *图片 继承多媒体类型
      * </pre>
      */
     public static final class Builder extends
@@ -4903,7 +4609,7 @@ public final class Eng {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-          getMediaFieldBuilder();
+          getMediaInfoFieldBuilder();
         }
       }
       private static Builder create() {
@@ -4912,10 +4618,10 @@ public final class Eng {
 
       public Builder clear() {
         super.clear();
-        if (mediaBuilder_ == null) {
-          media_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
+        if (mediaInfoBuilder_ == null) {
+          mediaInfo_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
         } else {
-          mediaBuilder_.clear();
+          mediaInfoBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
@@ -4949,10 +4655,10 @@ public final class Eng {
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
           to_bitField0_ |= 0x00000001;
         }
-        if (mediaBuilder_ == null) {
-          result.media_ = media_;
+        if (mediaInfoBuilder_ == null) {
+          result.mediaInfo_ = mediaInfo_;
         } else {
-          result.media_ = mediaBuilder_.build();
+          result.mediaInfo_ = mediaInfoBuilder_.build();
         }
         result.bitField0_ = to_bitField0_;
         onBuilt();
@@ -4970,19 +4676,19 @@ public final class Eng {
 
       public Builder mergeFrom(com.zy17.protobuf.domain.Eng.PbImage other) {
         if (other == com.zy17.protobuf.domain.Eng.PbImage.getDefaultInstance()) return this;
-        if (other.hasMedia()) {
-          mergeMedia(other.getMedia());
+        if (other.hasMediaInfo()) {
+          mergeMediaInfo(other.getMediaInfo());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
       }
 
       public final boolean isInitialized() {
-        if (!hasMedia()) {
+        if (!hasMediaInfo()) {
 
           return false;
         }
-        if (!getMedia().isInitialized()) {
+        if (!getMediaInfo().isInitialized()) {
 
           return false;
         }
@@ -5008,166 +4714,121 @@ public final class Eng {
       }
       private int bitField0_;
 
-      // required .com.MediaBlobInfo media = 1;
-      private com.zy17.protobuf.domain.Eng.MediaBlobInfo media_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
+      // required .com.MediaBlobInfo mediaInfo = 1;
+      private com.zy17.protobuf.domain.Eng.MediaBlobInfo mediaInfo_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
       private com.google.protobuf.SingleFieldBuilder<
-          MediaBlobInfo, MediaBlobInfo.Builder, MediaBlobInfoOrBuilder> mediaBuilder_;
+          MediaBlobInfo, MediaBlobInfo.Builder, MediaBlobInfoOrBuilder> mediaInfoBuilder_;
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public boolean hasMedia() {
+      public boolean hasMediaInfo() {
         return ((bitField0_ & 0x00000001) == 0x00000001);
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public com.zy17.protobuf.domain.Eng.MediaBlobInfo getMedia() {
-        if (mediaBuilder_ == null) {
-          return media_;
+      public com.zy17.protobuf.domain.Eng.MediaBlobInfo getMediaInfo() {
+        if (mediaInfoBuilder_ == null) {
+          return mediaInfo_;
         } else {
-          return mediaBuilder_.getMessage();
+          return mediaInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public Builder setMedia(com.zy17.protobuf.domain.Eng.MediaBlobInfo value) {
-        if (mediaBuilder_ == null) {
+      public Builder setMediaInfo(com.zy17.protobuf.domain.Eng.MediaBlobInfo value) {
+        if (mediaInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          media_ = value;
+          mediaInfo_ = value;
           onChanged();
         } else {
-          mediaBuilder_.setMessage(value);
+          mediaInfoBuilder_.setMessage(value);
         }
         bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public Builder setMedia(
+      public Builder setMediaInfo(
           com.zy17.protobuf.domain.Eng.MediaBlobInfo.Builder builderForValue) {
-        if (mediaBuilder_ == null) {
-          media_ = builderForValue.build();
+        if (mediaInfoBuilder_ == null) {
+          mediaInfo_ = builderForValue.build();
           onChanged();
         } else {
-          mediaBuilder_.setMessage(builderForValue.build());
+          mediaInfoBuilder_.setMessage(builderForValue.build());
         }
         bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public Builder mergeMedia(com.zy17.protobuf.domain.Eng.MediaBlobInfo value) {
-        if (mediaBuilder_ == null) {
+      public Builder mergeMediaInfo(com.zy17.protobuf.domain.Eng.MediaBlobInfo value) {
+        if (mediaInfoBuilder_ == null) {
           if (((bitField0_ & 0x00000001) == 0x00000001) &&
-              media_ != com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance()) {
-            media_ =
-              com.zy17.protobuf.domain.Eng.MediaBlobInfo.newBuilder(media_).mergeFrom(value).buildPartial();
+              mediaInfo_ != com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance()) {
+            mediaInfo_ =
+              com.zy17.protobuf.domain.Eng.MediaBlobInfo.newBuilder(mediaInfo_).mergeFrom(value).buildPartial();
           } else {
-            media_ = value;
+            mediaInfo_ = value;
           }
           onChanged();
         } else {
-          mediaBuilder_.mergeFrom(value);
+          mediaInfoBuilder_.mergeFrom(value);
         }
         bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public Builder clearMedia() {
-        if (mediaBuilder_ == null) {
-          media_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
+      public Builder clearMediaInfo() {
+        if (mediaInfoBuilder_ == null) {
+          mediaInfo_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
           onChanged();
         } else {
-          mediaBuilder_.clear();
+          mediaInfoBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public com.zy17.protobuf.domain.Eng.MediaBlobInfo.Builder getMediaBuilder() {
+      public com.zy17.protobuf.domain.Eng.MediaBlobInfo.Builder getMediaInfoBuilder() {
         bitField0_ |= 0x00000001;
         onChanged();
-        return getMediaFieldBuilder().getBuilder();
+        return getMediaInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaOrBuilder() {
-        if (mediaBuilder_ != null) {
-          return mediaBuilder_.getMessageOrBuilder();
+      public com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaInfoOrBuilder() {
+        if (mediaInfoBuilder_ != null) {
+          return mediaInfoBuilder_.getMessageOrBuilder();
         } else {
-          return media_;
+          return mediaInfo_;
         }
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
-       *
-       * <pre>
-       *    通过blob的id能拼接出来
-       *    required string imageUrl=3;
-       * </pre>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           MediaBlobInfo, MediaBlobInfo.Builder, MediaBlobInfoOrBuilder>
-          getMediaFieldBuilder() {
-        if (mediaBuilder_ == null) {
-          mediaBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getMediaInfoFieldBuilder() {
+        if (mediaInfoBuilder_ == null) {
+          mediaInfoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
               MediaBlobInfo, MediaBlobInfo.Builder, MediaBlobInfoOrBuilder>(
-                  media_,
+                  mediaInfo_,
                   getParentForChildren(),
                   isClean());
-          media_ = null;
+          mediaInfo_ = null;
         }
-        return mediaBuilder_;
+        return mediaInfoBuilder_;
       }
 
       // @@protoc_insertion_point(builder_scope:com.PbImage)
@@ -5184,19 +4845,19 @@ public final class Eng {
   public interface PbSoundOrBuilder
       extends com.google.protobuf.MessageOrBuilder {
 
-    // required .com.MediaBlobInfo media = 1;
+    // required .com.MediaBlobInfo mediaInfo = 1;
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    boolean hasMedia();
+    boolean hasMediaInfo();
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    com.zy17.protobuf.domain.Eng.MediaBlobInfo getMedia();
+    com.zy17.protobuf.domain.Eng.MediaBlobInfo getMediaInfo();
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaOrBuilder();
+    com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaInfoOrBuilder();
   }
   /**
    * Protobuf type {@code com.PbSound}
@@ -5256,12 +4917,12 @@ public final class Eng {
             case 10: {
               com.zy17.protobuf.domain.Eng.MediaBlobInfo.Builder subBuilder = null;
               if (((bitField0_ & 0x00000001) == 0x00000001)) {
-                subBuilder = media_.toBuilder();
+                subBuilder = mediaInfo_.toBuilder();
               }
-              media_ = input.readMessage(com.zy17.protobuf.domain.Eng.MediaBlobInfo.PARSER, extensionRegistry);
+              mediaInfo_ = input.readMessage(com.zy17.protobuf.domain.Eng.MediaBlobInfo.PARSER, extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(media_);
-                media_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(mediaInfo_);
+                mediaInfo_ = subBuilder.buildPartial();
               }
               bitField0_ |= 0x00000001;
               break;
@@ -5306,41 +4967,41 @@ public final class Eng {
     }
 
     private int bitField0_;
-    // required .com.MediaBlobInfo media = 1;
-    public static final int MEDIA_FIELD_NUMBER = 1;
-    private com.zy17.protobuf.domain.Eng.MediaBlobInfo media_;
+    // required .com.MediaBlobInfo mediaInfo = 1;
+    public static final int MEDIAINFO_FIELD_NUMBER = 1;
+    private com.zy17.protobuf.domain.Eng.MediaBlobInfo mediaInfo_;
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    public boolean hasMedia() {
+    public boolean hasMediaInfo() {
       return ((bitField0_ & 0x00000001) == 0x00000001);
     }
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    public com.zy17.protobuf.domain.Eng.MediaBlobInfo getMedia() {
-      return media_;
+    public com.zy17.protobuf.domain.Eng.MediaBlobInfo getMediaInfo() {
+      return mediaInfo_;
     }
     /**
-     * <code>required .com.MediaBlobInfo media = 1;</code>
+     * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
      */
-    public com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaOrBuilder() {
-      return media_;
+    public com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaInfoOrBuilder() {
+      return mediaInfo_;
     }
 
     private void initFields() {
-      media_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
+      mediaInfo_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
       if (isInitialized != -1) return isInitialized == 1;
 
-      if (!hasMedia()) {
+      if (!hasMediaInfo()) {
         memoizedIsInitialized = 0;
         return false;
       }
-      if (!getMedia().isInitialized()) {
+      if (!getMediaInfo().isInitialized()) {
         memoizedIsInitialized = 0;
         return false;
       }
@@ -5352,7 +5013,7 @@ public final class Eng {
                         throws java.io.IOException {
       getSerializedSize();
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeMessage(1, media_);
+        output.writeMessage(1, mediaInfo_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -5365,7 +5026,7 @@ public final class Eng {
       size = 0;
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, media_);
+          .computeMessageSize(1, mediaInfo_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -5479,7 +5140,7 @@ public final class Eng {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-          getMediaFieldBuilder();
+          getMediaInfoFieldBuilder();
         }
       }
       private static Builder create() {
@@ -5488,10 +5149,10 @@ public final class Eng {
 
       public Builder clear() {
         super.clear();
-        if (mediaBuilder_ == null) {
-          media_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
+        if (mediaInfoBuilder_ == null) {
+          mediaInfo_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
         } else {
-          mediaBuilder_.clear();
+          mediaInfoBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
@@ -5525,10 +5186,10 @@ public final class Eng {
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
           to_bitField0_ |= 0x00000001;
         }
-        if (mediaBuilder_ == null) {
-          result.media_ = media_;
+        if (mediaInfoBuilder_ == null) {
+          result.mediaInfo_ = mediaInfo_;
         } else {
-          result.media_ = mediaBuilder_.build();
+          result.mediaInfo_ = mediaInfoBuilder_.build();
         }
         result.bitField0_ = to_bitField0_;
         onBuilt();
@@ -5546,19 +5207,19 @@ public final class Eng {
 
       public Builder mergeFrom(com.zy17.protobuf.domain.Eng.PbSound other) {
         if (other == com.zy17.protobuf.domain.Eng.PbSound.getDefaultInstance()) return this;
-        if (other.hasMedia()) {
-          mergeMedia(other.getMedia());
+        if (other.hasMediaInfo()) {
+          mergeMediaInfo(other.getMediaInfo());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
       }
 
       public final boolean isInitialized() {
-        if (!hasMedia()) {
+        if (!hasMediaInfo()) {
 
           return false;
         }
-        if (!getMedia().isInitialized()) {
+        if (!getMediaInfo().isInitialized()) {
 
           return false;
         }
@@ -5584,121 +5245,121 @@ public final class Eng {
       }
       private int bitField0_;
 
-      // required .com.MediaBlobInfo media = 1;
-      private com.zy17.protobuf.domain.Eng.MediaBlobInfo media_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
+      // required .com.MediaBlobInfo mediaInfo = 1;
+      private com.zy17.protobuf.domain.Eng.MediaBlobInfo mediaInfo_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
       private com.google.protobuf.SingleFieldBuilder<
-          MediaBlobInfo, MediaBlobInfo.Builder, MediaBlobInfoOrBuilder> mediaBuilder_;
+          MediaBlobInfo, MediaBlobInfo.Builder, MediaBlobInfoOrBuilder> mediaInfoBuilder_;
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public boolean hasMedia() {
+      public boolean hasMediaInfo() {
         return ((bitField0_ & 0x00000001) == 0x00000001);
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public com.zy17.protobuf.domain.Eng.MediaBlobInfo getMedia() {
-        if (mediaBuilder_ == null) {
-          return media_;
+      public com.zy17.protobuf.domain.Eng.MediaBlobInfo getMediaInfo() {
+        if (mediaInfoBuilder_ == null) {
+          return mediaInfo_;
         } else {
-          return mediaBuilder_.getMessage();
+          return mediaInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public Builder setMedia(com.zy17.protobuf.domain.Eng.MediaBlobInfo value) {
-        if (mediaBuilder_ == null) {
+      public Builder setMediaInfo(com.zy17.protobuf.domain.Eng.MediaBlobInfo value) {
+        if (mediaInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          media_ = value;
+          mediaInfo_ = value;
           onChanged();
         } else {
-          mediaBuilder_.setMessage(value);
+          mediaInfoBuilder_.setMessage(value);
         }
         bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public Builder setMedia(
+      public Builder setMediaInfo(
           com.zy17.protobuf.domain.Eng.MediaBlobInfo.Builder builderForValue) {
-        if (mediaBuilder_ == null) {
-          media_ = builderForValue.build();
+        if (mediaInfoBuilder_ == null) {
+          mediaInfo_ = builderForValue.build();
           onChanged();
         } else {
-          mediaBuilder_.setMessage(builderForValue.build());
+          mediaInfoBuilder_.setMessage(builderForValue.build());
         }
         bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public Builder mergeMedia(com.zy17.protobuf.domain.Eng.MediaBlobInfo value) {
-        if (mediaBuilder_ == null) {
+      public Builder mergeMediaInfo(com.zy17.protobuf.domain.Eng.MediaBlobInfo value) {
+        if (mediaInfoBuilder_ == null) {
           if (((bitField0_ & 0x00000001) == 0x00000001) &&
-              media_ != com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance()) {
-            media_ =
-              com.zy17.protobuf.domain.Eng.MediaBlobInfo.newBuilder(media_).mergeFrom(value).buildPartial();
+              mediaInfo_ != com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance()) {
+            mediaInfo_ =
+              com.zy17.protobuf.domain.Eng.MediaBlobInfo.newBuilder(mediaInfo_).mergeFrom(value).buildPartial();
           } else {
-            media_ = value;
+            mediaInfo_ = value;
           }
           onChanged();
         } else {
-          mediaBuilder_.mergeFrom(value);
+          mediaInfoBuilder_.mergeFrom(value);
         }
         bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public Builder clearMedia() {
-        if (mediaBuilder_ == null) {
-          media_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
+      public Builder clearMediaInfo() {
+        if (mediaInfoBuilder_ == null) {
+          mediaInfo_ = com.zy17.protobuf.domain.Eng.MediaBlobInfo.getDefaultInstance();
           onChanged();
         } else {
-          mediaBuilder_.clear();
+          mediaInfoBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public com.zy17.protobuf.domain.Eng.MediaBlobInfo.Builder getMediaBuilder() {
+      public com.zy17.protobuf.domain.Eng.MediaBlobInfo.Builder getMediaInfoBuilder() {
         bitField0_ |= 0x00000001;
         onChanged();
-        return getMediaFieldBuilder().getBuilder();
+        return getMediaInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
-      public com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaOrBuilder() {
-        if (mediaBuilder_ != null) {
-          return mediaBuilder_.getMessageOrBuilder();
+      public com.zy17.protobuf.domain.Eng.MediaBlobInfoOrBuilder getMediaInfoOrBuilder() {
+        if (mediaInfoBuilder_ != null) {
+          return mediaInfoBuilder_.getMessageOrBuilder();
         } else {
-          return media_;
+          return mediaInfo_;
         }
       }
       /**
-       * <code>required .com.MediaBlobInfo media = 1;</code>
+       * <code>required .com.MediaBlobInfo mediaInfo = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           MediaBlobInfo, MediaBlobInfo.Builder, MediaBlobInfoOrBuilder>
-          getMediaFieldBuilder() {
-        if (mediaBuilder_ == null) {
-          mediaBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getMediaInfoFieldBuilder() {
+        if (mediaInfoBuilder_ == null) {
+          mediaInfoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
               MediaBlobInfo, MediaBlobInfo.Builder, MediaBlobInfoOrBuilder>(
-                  media_,
+                  mediaInfo_,
                   getParentForChildren(),
                   isClean());
-          media_ = null;
+          mediaInfo_ = null;
         }
-        return mediaBuilder_;
+        return mediaInfoBuilder_;
       }
 
       // @@protoc_insertion_point(builder_scope:com.PbSound)
@@ -6451,18 +6112,17 @@ public final class Eng {
       "(\t\022\017\n\007chiText\030\003 \001(\t\022\033\n\005image\030\005 \001(\0132\014.com" +
       ".PbImage\022\033\n\005sound\030\007 \001(\0132\014.com.PbSound\"#\n" +
       "\010CardList\022\027\n\004card\030\001 \003(\0132\t.com.Card\"$\n\013Bl" +
-      "obMessage\022\025\n\rblobUploadUrl\030\001 \002(\t\"\265\001\n\rMed" +
+      "obMessage\022\025\n\rblobUploadUrl\030\001 \002(\t\"\223\001\n\rMed" +
       "iaBlobInfo\022\017\n\007blobkey\030\001 \002(\t\022\023\n\013oldFileNa" +
       "me\030\002 \002(\t\022\020\n\010fileName\030\003 \002(\t\022\023\n\013contentTyp" +
       "e\030\005 \002(\t\022\020\n\010fileSize\030\007 \002(\003\022\022\n\ncreateDate\030" +
-      "\t \002(\003\022\017\n\007servrul\030\013 \001(\t\022\017\n\007revert1\030\r \001(\t\022" +
-      "\017\n\007revert2\030\017 \001(\t\"?\n\021MediaBlobInfoList\022*\n",
-      "\016mediaBlobInfos\030\001 \003(\0132\022.com.MediaBlobInf" +
-      "o\",\n\007PbImage\022!\n\005media\030\001 \002(\0132\022.com.MediaB" +
-      "lobInfo\",\n\007PbSound\022!\n\005media\030\001 \002(\0132\022.com." +
-      "MediaBlobInfo\"*\n\013PbImageList\022\033\n\005image\030\001 " +
-      "\003(\0132\014.com.PbImageB\037\n\030com.zy17.protobuf.d" +
-      "omainB\003Eng"
+      "\t \002(\003\022\017\n\007servUrl\030\013 \001(\t\"?\n\021MediaBlobInfoL" +
+      "ist\022*\n\016mediaBlobInfos\030\001 \003(\0132\022.com.MediaB",
+      "lobInfo\"0\n\007PbImage\022%\n\tmediaInfo\030\001 \002(\0132\022." +
+      "com.MediaBlobInfo\"0\n\007PbSound\022%\n\tmediaInf" +
+      "o\030\001 \002(\0132\022.com.MediaBlobInfo\"*\n\013PbImageLi" +
+      "st\022\033\n\005image\030\001 \003(\0132\014.com.PbImageB\037\n\030com.z" +
+      "y17.protobuf.domainB\003Eng"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -6492,7 +6152,7 @@ public final class Eng {
           internal_static_com_MediaBlobInfo_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_com_MediaBlobInfo_descriptor,
-              new java.lang.String[] { "Blobkey", "OldFileName", "FileName", "ContentType", "FileSize", "CreateDate", "Servrul", "Revert1", "Revert2", });
+              new java.lang.String[] { "Blobkey", "OldFileName", "FileName", "ContentType", "FileSize", "CreateDate", "ServUrl", });
           internal_static_com_MediaBlobInfoList_descriptor =
             getDescriptor().getMessageTypes().get(4);
           internal_static_com_MediaBlobInfoList_fieldAccessorTable = new
@@ -6504,13 +6164,13 @@ public final class Eng {
           internal_static_com_PbImage_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_com_PbImage_descriptor,
-              new java.lang.String[] { "Media", });
+              new java.lang.String[] { "MediaInfo", });
           internal_static_com_PbSound_descriptor =
             getDescriptor().getMessageTypes().get(6);
           internal_static_com_PbSound_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_com_PbSound_descriptor,
-              new java.lang.String[] { "Media", });
+              new java.lang.String[] { "MediaInfo", });
           internal_static_com_PbImageList_descriptor =
             getDescriptor().getMessageTypes().get(7);
           internal_static_com_PbImageList_fieldAccessorTable = new
