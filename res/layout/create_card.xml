@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="115dp"
+            android:id="@+id/Answer"
+            android:autoText="false"
+            android:inputType="text"/>
+
+    <!--android:background="@drawable/voic_img" -->
+
+    <ListView android:id="@+id/list"
+              android:layout_width="fill_parent"
+              android:layout_height="121dp"
+              android:layout_weight="1"
+              android:choiceMode="singleChoice"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <Button android:id="@+id/speakButton"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Speek Recognizer"
+                android:layout_gravity="right|center_vertical" android:onClick="startVoiceRecognitionActivity"/>
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="RecordSound"
+                android:id="@+id/recordButton" android:onClick="onRecordButtonClick"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginLeft="-2dp">
+        <Button
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Please add photo"
+                android:id="@+id/addPhoto" android:layout_gravity="left|center_vertical" android:onClick="choosePhoto"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="take a photo"
+                android:id="@+id/takePhoto" android:layout_gravity="center" android:onClick="takePhoto"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/sendButton"
+            android:layout_gravity="center"
+            android:onClick="sendMessageToServer"/>
+
+</LinearLayout>

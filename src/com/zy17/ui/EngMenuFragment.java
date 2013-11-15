@@ -12,7 +12,7 @@ import android.widget.ListView;
 import com.zy17.R;
 import com.zy17.ResponsiveUIActivity;
 
-public class BirdMenuFragment extends ListFragment {
+public class EngMenuFragment extends ListFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -34,7 +34,7 @@ public class BirdMenuFragment extends ListFragment {
             Intent intent = new Intent(getActivity(), CreateCardActivity.class);
             startActivity(intent);
         }
-        Fragment newContent = new BirdGridFragment(position);
+        Fragment newContent = new CardListFragment(position);
         if (newContent != null)
             switchFragment(newContent);
     }

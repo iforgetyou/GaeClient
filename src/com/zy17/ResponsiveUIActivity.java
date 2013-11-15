@@ -1,19 +1,17 @@
 package com.zy17;
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.StrictMode;
 import android.support.v4.app.Fragment;
-import android.view.MenuItem;
 import android.view.View;
 import com.slidingmenu.lib.SlidingMenu;
 import com.slidingmenu.lib.app.SlidingFragmentActivity;
-import com.zy17.GaeClient.http.CardController;
-import com.zy17.ui.BirdActivity;
-import com.zy17.ui.BirdGridFragment;
-import com.zy17.ui.BirdMenuFragment;
+import com.zy17.protobuf.domain.Eng;
+import com.zy17.ui.CardListFragment;
+import com.zy17.ui.EngMenuFragment;
+import com.zy17.ui.CardDetailActivity;
 
 /**
  * This activity is an example of a responsive Android UI.
@@ -22,16 +20,17 @@ import com.zy17.ui.BirdMenuFragment;
  * On tablets, it will will do the same general thing. In portrait
  * mode, it will enable the SlidingMenu, and in landscape mode, it
  * will be a dual pane layout.
- * 
- * @author jeremy
  *
+ * @author jeremy
  */
 public class ResponsiveUIActivity extends SlidingFragmentActivity {
 
-	private Fragment mContent;
+    private Fragment mContent;
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
+
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
         if (false) {
             StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
                     .detectDiskReads()
@@ -46,49 +45,49 @@ public class ResponsiveUIActivity extends SlidingFragmentActivity {
                     .penaltyDeath()
                     .build());
         }
-		super.onCreate(savedInstanceState);
-		setTitle(R.string.title);
-		setContentView(R.layout.responsive_content_frame);
+        super.onCreate(savedInstanceState);
+        setTitle(R.string.title);
+        setContentView(R.layout.responsive_content_frame);
 
-		// check if the content frame contains the menu frame
-		if (findViewById(R.id.menu_frame) == null) {
-			setBehindContentView(R.layout.menu_frame);
-			getSlidingMenu().setSlidingEnabled(true);
-			getSlidingMenu().setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
-			// show home as up so we can toggle
-			getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-		} else {
-			// add a dummy view
-			View v = new View(this);
-			setBehindContentView(v);
-			getSlidingMenu().setSlidingEnabled(false);
-			getSlidingMenu().setTouchModeAbove(SlidingMenu.TOUCHMODE_NONE);
-		}
+        // check if the content frame contains the menu frame
+        if (findViewById(R.id.menu_frame) == null) {
+            setBehindContentView(R.layout.menu_frame);
+            getSlidingMenu().setSlidingEnabled(true);
+            getSlidingMenu().setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+            // show home as up so we can toggle
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        } else {
+            // add a dummy view
+            View v = new View(this);
+            setBehindContentView(v);
+            getSlidingMenu().setSlidingEnabled(false);
+            getSlidingMenu().setTouchModeAbove(SlidingMenu.TOUCHMODE_NONE);
+        }
 
-		// set the Above View Fragment
-		if (savedInstanceState != null)
-			mContent = getSupportFragmentManager().getFragment(savedInstanceState, "mContent");
-		if (mContent == null)
-			mContent = new BirdGridFragment(0);
-		getSupportFragmentManager()
-		.beginTransaction()
-		.replace(R.id.content_frame, mContent)
-		.commit();
+        // set the Above View Fragment
+        if (savedInstanceState != null)
+            mContent = getSupportFragmentManager().getFragment(savedInstanceState, "mContent");
+        if (mContent == null)
+            mContent = new CardListFragment(0);
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.content_frame, mContent)
+                .commit();
 
-		// set the Behind View Fragment
-		getSupportFragmentManager()
-		.beginTransaction()
-		.replace(R.id.menu_frame, new BirdMenuFragment())
-		.commit();
+        // set the Behind View Fragment
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.menu_frame, new EngMenuFragment())
+                .commit();
 
-		// customize the SlidingMenu
-		SlidingMenu sm = getSlidingMenu();
-		sm.setBehindOffsetRes(R.dimen.slidingmenu_offset);
-		sm.setShadowWidthRes(R.dimen.shadow_width);
-		sm.setShadowDrawable(R.drawable.shadow);
-		sm.setBehindScrollScale(0.25f);
-		sm.setFadeDegree(0.25f);
-	}
+        // customize the SlidingMenu
+        SlidingMenu sm = getSlidingMenu();
+        sm.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+        sm.setShadowWidthRes(R.dimen.shadow_width);
+        sm.setShadowDrawable(R.drawable.shadow);
+        sm.setBehindScrollScale(0.25f);
+        sm.setFadeDegree(0.25f);
+    }
 
 
     public void switchContent(final Fragment fragment) {
@@ -106,8 +105,8 @@ public class ResponsiveUIActivity extends SlidingFragmentActivity {
     }
 
 
-    public void onBirdPressed(int pos) {
-        Intent intent = BirdActivity.newInstance(this, pos);
+    public void onBirdPressed(int pos, Eng.CardList cardList) {
+        Intent intent = CardDetailActivity.newInstance(this, pos, cardList);
         startActivity(intent);
     }
 

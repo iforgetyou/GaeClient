@@ -22,8 +22,8 @@
     </string-array>
 
     <string-array name="eng_menu">
-        <item>Find Cards</item>
-        <item>Create new Card</item>
+        <item>发现卡片</item>
+        <item>创建卡片</item>
     </string-array>
 
     <string-array name="birds_img">

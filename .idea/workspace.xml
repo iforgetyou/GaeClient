@@ -44,34 +44,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/GaeClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufHttpResponseHandler.java" />
-      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\.idea\libraries\Maven__junit_junit_4_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\.idea\libraries\android_support_v4.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\src\com\example\GaeClient\http\GaeClient.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\test\SpeexTest.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GaeClient.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/controller/CardController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ui/CardDetailActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/model/CardListModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ui/CardMediaActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/ui/CardTextActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/controller/ControllerProtocol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/controller/ControllerState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/HttpRequestAsyncTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/model/Immutable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/util/NetworkUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufRequestClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/controller/ReadyState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zy17/model/ThreadSafe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/card_detail_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/card_detail_media.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/card_detail_text.xml" />
+      <change type="DELETED" beforePath="E:\workspace\GitHub\GaeClient\src\com\zy17\ui\BirdActivity.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/ui/BirdActivity.java" afterPath="$PROJECT_DIR$/src/com/zy17/ui/BirdActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java" afterPath="$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" afterPath="$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java" afterPath="$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeClient.iml" afterPath="$PROJECT_DIR$/GaeClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/GaeClientTest.java" afterPath="$PROJECT_DIR$/test/GaeClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java" afterPath="$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/MyApplication.java" afterPath="$PROJECT_DIR$/src/com/zy17/MyApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufHttpResponseHandler.java" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufHttpResponseHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java" afterPath="$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zy17/ui/VoiceActivity.java" afterPath="$PROJECT_DIR$/src/com/zy17/ui/VoiceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/createcard.xml" afterPath="$PROJECT_DIR$/res/layout/createcard.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/crittercism_v3_0_3_sdkonly.xml" afterPath="$PROJECT_DIR$/.idea/libraries/crittercism_v3_0_3_sdkonly.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/array.xml" afterPath="$PROJECT_DIR$/res/values/array.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\workspace\GitHub\GaeClient\src\com\example\GaeClient\http\SendMessageUtil.java" afterPath="$PROJECT_DIR$/src/com/zy17/GaeClient/http/SendMessageUtil.java" />
+      <change type="MOVED" beforePath="E:\workspace\GitHub\GaeClient\res\layout\createcard.xml" afterPath="$PROJECT_DIR$/res/layout/create_card.xml" />
+      <change type="MOVED" beforePath="E:\workspace\GitHub\GaeClient\src\com\zy17\MyApplication.java" afterPath="$PROJECT_DIR$/src/com/zy17/App.java" />
+      <change type="MOVED" beforePath="E:\workspace\GitHub\GaeClient\src\com\zy17\ui\BirdGridFragment.java" afterPath="$PROJECT_DIR$/src/com/zy17/ui/CardListFragment.java" />
+      <change type="MOVED" beforePath="E:\workspace\GitHub\GaeClient\src\com\zy17\ui\BirdMenuFragment.java" afterPath="$PROJECT_DIR$/src/com/zy17/ui/EngMenuFragment.java" />
     </list>
     <ignored path="GaeClient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,9 +88,9 @@
     <file path="/main.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603110285" ignored="false" />
     <file path="/Applications/adt-bundle-mac-x86_64-20130911/sdk/tools/ant/build.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665359311" ignored="false" />
     <file path="/Activity02.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665438746" ignored="false" />
-    <file path="/fragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383643691845" ignored="false" />
+    <file path="/fragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384334816516" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy3921721472909743142tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665460045" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383724121661" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383896948475" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy6465784020806217031tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665492578" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy114567331642162429tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665615076" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy7974752741705376305tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665737339" ignored="false" />
@@ -94,9 +100,9 @@
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy4235515980846708592tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379665959275" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy6453370548876882574tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379666104373" ignored="false" />
     <file path="/RESTService.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379681085825" ignored="false" />
-    <file path="/Dummy.txt" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383615235368" ignored="false" />
+    <file path="/Dummy.txt" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384486063992" ignored="false" />
     <file path="$PROJECT_DIR$/../rest_service_tutorial/gen/net/neilgoodman/android/restservicetutorial/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1379682226910" ignored="false" />
-    <file path="/a.dummy" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383618495061" ignored="false" />
+    <file path="/a.dummy" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384500793821" ignored="false" />
     <file path="/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383274050692" ignored="false" />
     <file path="$PROJECT_DIR$/../HelloMavenAndroid/target/generated-sources/r/com/study/android/BuildConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381745003952" ignored="false" />
     <file path="$PROJECT_DIR$/../HelloMavenAndroid/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381745024409" ignored="false" />
@@ -111,7 +117,7 @@
     <file path="$PROJECT_DIR$/../helloorm/protocsrc/com/zy17/protobuf/domain/AddressBookProtos.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383629237338" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4456958628204676240tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1381813990223" ignored="false" />
     <file path="/GaeClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383718746294" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/test/ApacheHttpRestClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383702323225" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/test/ApacheHttpRestClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383799641340" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3243665597218570935tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382602930522" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6873066365121464361tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603367071" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5259900111254808282tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382603598471" ignored="false" />
@@ -148,11 +154,11 @@
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy7230171132259840344tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382626949744" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy629039998007043866tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627339337" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/dao/impl/BaseDaoImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838071" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/CardController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383615268772" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/CardController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384220157545" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/dao/impl/PersonDaoImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838071" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/dao/impl/CardDaoImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/war/WEB-INF/web.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/MessageController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/war/WEB-INF/web.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384494715627" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/MessageController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384223471881" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/protobufview/PBMessageConverter.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1382627838072" ignored="false" />
     <file path="/private/var/folders/rd/7tync4d50vg3xqwt2v72_3nh0000gn/T/android_manifest_copy5861725758350218212tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383051277060" ignored="false" />
     <file path="$PROJECT_DIR$/../SlidingMenu/example/gen/com/slidingmenu/example/R.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383052070153" ignored="false" />
@@ -209,8 +215,8 @@
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2827519343705239364tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383095193836" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2660227190913577954tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383095710304" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5244024667008972526tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383101290460" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/filter/UploadPost.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383628823121" ignored="false" />
-    <file path="/UploadPost.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383628819263" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/filter/UploadPost.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383795507935" ignored="false" />
+    <file path="/UploadPost.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383795505401" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/test/PersonJsonTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383103744981" ignored="false" />
     <file path="/PersonJsonTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383103743109" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/protobuf/Card.proto" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383630205259" ignored="false" />
@@ -223,7 +229,7 @@
     <file path="/ApacheHttpRestClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383633854539" ignored="false" />
     <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/domain/CardDomain.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383633929402" ignored="false" />
     <file path="/CardDomain.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383633929402" ignored="false" />
-    <file path="/CardController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383640272205" ignored="false" />
+    <file path="/CardController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383800087802" ignored="false" />
     <file path="/SendMessageUtil.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383716413013" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7380939261740711570tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383119570119" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3977579022551871666tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383124743157" ignored="false" />
@@ -231,17 +237,17 @@
     <file path="$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$1/SampleListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383183633696" ignored="false" />
     <file path="/MainActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383184217893" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/ResponsiveUIActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
-    <file path="/ResponsiveUIActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383640513469" ignored="false" />
+    <file path="/ResponsiveUIActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383786231003" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$1/MainActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383184309092" ignored="false" />
     <file path="$PROJECT_DIR$/../../ResponsiveUI/src/com/yangyu/myslidingmenudemo05/SampleListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383204991531" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu/example/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/SampleListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu/example/res/values/array.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383188640199" ignored="false" />
-    <file path="/array.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383209836913" ignored="false" />
+    <file path="/array.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384477896104" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/BirdMenuFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383202993481" ignored="false" />
     <file path="/BirdMenuFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383210320942" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/BirdGridFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383189072002" ignored="false" />
-    <file path="/BirdGridFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383716670612" ignored="false" />
+    <file path="/BirdGridFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384159784467" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/EngMenuFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383197937245" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu/example/src/com/slidingmenu/example/fragments/EngFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383191916347" ignored="false" />
     <file path="/EngMenuFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383197935573" ignored="false" />
@@ -271,10 +277,10 @@
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3361088501391641765tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383270225574" ignored="false" />
     <file path="$PROJECT_DIR$/../../SlidingMenu1/library/target/classes/META-INF/maven/com.slidingmenu/slidingmenu/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383277510901" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1848928721647227043tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383284886662" ignored="false" />
-    <file path="/BirdActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383286053525" ignored="false" />
+    <file path="/BirdActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383897153146" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6098044010825613377tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383286894552" ignored="false" />
     <file path="/ProtobufHttpResponseHandler.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383545773132" ignored="false" />
-    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/BaseDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383532893220" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/BaseDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
     <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/controller/jsonview/ViewAwareJsonMessageConverter.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383534624375" ignored="false" />
     <file path="/ViewAwareJsonMessageConverter.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383534292488" ignored="false" />
     <file path="/GaeClientTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383537479426" ignored="false" />
@@ -282,8 +288,8 @@
     <file path="$PROJECT_DIR$/../../SlidingMenu1/abs/gen/com/actionbarsherlock/Manifest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383542825906" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4676101172218537733tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383543984192" ignored="false" />
     <file path="/CreateCardActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383730570670" ignored="false" />
-    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/TopicDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383700976931" ignored="false" />
-    <file path="$PROJECT_DIR$/../helloorm/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383633669772" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/TopicDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384499406426" ignored="false" />
     <file path="D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/samples/android-17/SampleSyncAdapter/tests/src/com/example/android/samplesync/client/UserTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383641885365" ignored="false" />
     <file path="D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/samples/android-17/SampleSyncAdapter/tests/src/com/example/android/samplesync/authenticator/AuthenticatorActivityTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383641908497" ignored="false" />
     <file path="D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/samples/android-17/SampleSyncAdapter/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383642700027" ignored="false" />
@@ -296,6 +302,142 @@
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8226886008153393920tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383725497806" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7815920554305586789tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383726648346" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1271088168098551781tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383728805456" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8556679366704514382tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383786528354" ignored="false" />
+    <file path="/CardDetail.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383788280653" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1063217392092776647tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383788362818" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5220877854681852064tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383789893681" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3166499298825247189tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383793104669" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/filter/AudioServe.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383799095282" ignored="false" />
+    <file path="/AudioServe.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383799088227" ignored="false" />
+    <file path="/web.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384493333826" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/controller/BlobController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383805504658" ignored="false" />
+    <file path="/BlobController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383805504658" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/dao/impl/BlobDaoImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383801808588" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2851136588779517730tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383807802762" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6524504867089141390tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383810312173" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3460134522700555798tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383817513350" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5508614796889013283tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383817589344" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/test/java/com/citylife/trackup/backend/dao/impl/UpdatePullTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384330049980" ignored="false" />
+    <file path="/UpdatePullTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384330018735" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4852042291540002429tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383874733385" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5065530177415289683tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383875241053" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4169025229683244869tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383881360706" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy976313479006539154tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383882385760" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy9187809909037103593tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383882529575" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/resources/applicationContext.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/test/resources/health-check.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383888803825" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/webapp/WEB-INF/web.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383888803825" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/common/Clientcopy.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383888934972" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/common/Client.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383890099522" ignored="false" />
+    <file path="/Client.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889135523" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/domain/Base.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889673735" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/domain/Activity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/auth/CustomAccessDeniedHandler.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/dao/impl/BaseDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/domain/Message.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/dao/impl/ActivityDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/domain/Notice.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/dao/impl/UserDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/domain/Comment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/dao/impl/MessageDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/domain/User.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/controller/UserController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/common/mail/DataTaskListener.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/common/mail/SendThread.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/common/mail/DataTimerTask.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/service/impl/ActivityServiceImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/common/mail/BeginNotice.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/resources/applicationContext-security.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/service/impl/SendThreadImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383890156860" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/service/impl/UserServiceImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/common/DataDESCComparator.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560603" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/RestExceptionHandler.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560604" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560604" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/common/DataASCComparator.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560604" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/auth/RestAuthenticationProvider.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560604" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/domain/metrics/Meter.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560604" ignored="false" />
+    <file path="E:/workDir/trunk/src/activityup-backend/src/main/java/com/citylife/activityup/backend/auth/RestAuthenticationException.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383889560604" ignored="false" />
+    <file path="/SendThreadImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383890155002" ignored="false" />
+    <file path="E:/360Downloads/QieHuanDemo/QieHuanDemo/project.properties" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383892702506" ignored="false" />
+    <file path="/CardDetailActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383896852428" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy668337291871735364tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383893428853" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4467444600181316460tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383894917260" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3014412343595125850tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383895021914" ignored="false" />
+    <file path="$PROJECT_DIR$/bin/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384240615008" ignored="false" />
+    <file path="/CardTextActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383904009451" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6707767758581180038tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383896793982" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy23109798432401997tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383896956753" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1669138364183843557tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383897987368" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4491071895669518008tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383898182392" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4856518887554739656tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383898452676" ignored="false" />
+    <file path="D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/samples/android-16/SpellChecker/HelloSpellChecker/src/com/example/android/hellospellchecker/HelloSpellCheckerActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383901351466" ignored="false" />
+    <file path="/HelloSpellCheckerActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383901350974" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1604950846951882266tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383901963256" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5450688291198490416tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383902998179" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6439036448945009270tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1383903191562" ignored="false" />
+    <file path="$PROJECT_DIR$/../../android-async-mvc/src/com/mindtherobot/samples/asyncmvc/DemoActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384139206351" ignored="false" />
+    <file path="/ReadyState.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384496759282" ignored="false" />
+    <file path="/Controller.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384158633558" ignored="false" />
+    <file path="/Model.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384158439003" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8085266719982277371tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384158501990" ignored="false" />
+    <file path="/ControllerProtocol.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384159244678" ignored="false" />
+    <file path="/CardListFragment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384396753900" ignored="false" />
+    <file path="/CardListModel.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384161707222" ignored="false" />
+    <file path="$PROJECT_DIR$/../../android-async-mvc/src/com/mindtherobot/samples/asyncmvc/model/Model.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384218109924" ignored="false" />
+    <file path="/MessageController.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384223283049" ignored="false" />
+    <file path="/HttpRequestAsyncTask.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384338375741" ignored="false" />
+    <file path="/MyApplication.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384240614804" ignored="false" />
+    <file path="/XmlRequestCommand.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384244390509" ignored="false" />
+    <file path="/ProtobufRequestClient.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384496799615" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2656887164935435674tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384249337654" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8230486552363498499tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384320180892" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/resources/applicationContext-security.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384324341245" ignored="false" />
+    <file path="/applicationContext-security.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384499377864" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/webapp/WEB-INF/web.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384493573832" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/pom.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/resources/applicationContext.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/webapp/WEB-INF/log4j.properties" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/resources/applicationContext_test.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/CategoryDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/MessageDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/domain/Topic.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/TransactionHelp.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/domain/Comment.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/UserDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/PoiDaoMongoDbImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/metrics/MetricsConfig.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/auth/AllSecurityFilter.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984096" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/test/resources/health-check.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/auth/AfterSecurityFilter.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/webapp/WEB-INF/classes/applicationContext_test.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/resources/applicationContext_data.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/webapp/WEB-INF/classes/applicationContext-security.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/dao/impl/FeedbackDaoImpl.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/webapp/WEB-INF/classes/applicationContext_data.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/webapp/WEB-INF/classes/applicationContext.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/main/java/com/citylife/trackup/backend/domain/User.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/test/java/com/citylife/trackup/backend/dao/impl/MongodbJavaScripTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384323984097" ignored="false" />
+    <file path="$USER_HOME$/Desktop/SampleNetworking/src/com/musselwhizzle/networking/activities/MainActivity.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384326651784" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6555813567319748282tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384326906055" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1120512711413330773tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384327063375" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy193342397186096345tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384327125475" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6775865233186054627tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384327253379" ignored="false" />
+    <file path="E:/workDir/trunk/src/Trackup-prototype/src/test/java/com/citylife/trackup/backend/dao/impl/Test.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384330042759" ignored="false" />
+    <file path="/ProtobufParser.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384335485186" ignored="false" />
+    <file path="$PROJECT_DIR$/../../JavaTest/src/ThreadTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384390540175" ignored="false" />
+    <file path="/ThreadTest.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384390436911" ignored="false" />
+    <file path="$PROJECT_DIR$/../../JavaTest/src/Mainjob.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384390533888" ignored="false" />
+    <file path="/Mainjob.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384390533888" ignored="false" />
+    <file path="$PROJECT_DIR$/../../JavaTest/src/Power2Test.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384391676791" ignored="false" />
+    <file path="/Power2Test.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384391244858" ignored="false" />
+    <file path="$PROJECT_DIR$/../../JavaTest/src/a.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384394256870" ignored="false" />
+    <file path="/a.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384394256075" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8699568418128991977tmp/AndroidManifest.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384477998984" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/war/WEB-INF/classes/applicationContext-security.xml" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384499378700" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/src/com/zy17/auth/CustomAuthenticationEntryPoint.java" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384498562306" ignored="false" />
+    <file path="$PROJECT_DIR$/../helloorm/war/WEB-INF/classes/com/zy17/auth/CustomAuthenticationEntryPoint.class" changelist="4a2b9883-a924-4b29-9ae0-fadfe7784e3c" time="1384499301704" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,6 +455,42 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java" line="58" class="com.zy17.ui.ListViewLoader" package="com.zy17.ui">
@@ -330,7 +508,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" line="32" class="com.zy17.GaeClient.http.CardController$1" package="com.zy17.GaeClient.http">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" line="30" class="com.zy17.GaeClient.http.CardController$1" package="com.zy17.GaeClient.http">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -405,7 +583,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" line="33" class="com.zy17.GaeClient.http.CardController$1" package="com.zy17.GaeClient.http">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" line="31" class="com.zy17.GaeClient.http.CardController$1" package="com.zy17.GaeClient.http">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -420,52 +598,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java" line="152" class="com.zy17.ui.BirdGridFragment.LoadCardsTask" package="com.zy17.ui">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" line="344" class="com.zy17.ui.CreateCardActivity" package="com.zy17.ui">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" line="296" class="com.zy17.ui.CreateCardActivity" package="com.zy17.ui">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" line="294" class="com.zy17.ui.CreateCardActivity" package="com.zy17.ui">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" line="343" class="com.zy17.ui.CreateCardActivity" package="com.zy17.ui">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -495,43 +628,187 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" line="293" class="com.zy17.ui.CreateCardActivity" package="com.zy17.ui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" line="294" class="com.zy17.ui.CreateCardActivity" package="com.zy17.ui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CardMediaActivity.java" line="104" class="com.zy17.ui.CardMediaActivity.GestureListener" package="com.zy17.ui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CardMediaActivity.java" line="133" class="com.zy17.ui.CardMediaActivity" package="com.zy17.ui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CardDetailActivity.java" line="2" class="CardDetailActivity.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java" line="108" class="com.zy17.ResponsiveUIActivity" package="com.zy17">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CardDetailActivity.java" line="42" class="com.zy17.ui.CardDetailActivity" package="com.zy17.ui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufParser.java" line="19" class="com.zy17.GaeClient.http.ProtobufParser" package="com.zy17.GaeClient.http">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufHttpResponseHandler.java" line="38" class="com.zy17.GaeClient.http.ProtobufHttpResponseHandler" package="com.zy17.GaeClient.http">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CardDetailActivity.java" line="96" class="com.zy17.ui.CardDetailActivity" package="com.zy17.ui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/ui/CardListFragment.java" line="42" class="com.zy17.ui.CardListFragment" package="com.zy17.ui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufRequestClient.java" line="68" class="com.zy17.GaeClient.http.ProtobufRequestClient" package="com.zy17.GaeClient.http">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -543,86 +820,528 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="GaeClient" />
+    <favorites_list name="GaeClient">
+      <favorite_root url="file://$PROJECT_DIR$" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/bin" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/bin/res" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          <favorite_root url="file://$PROJECT_DIR$/bin/R.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/bin/classes" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/bin/classes/com" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/BirdActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/VoiceActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/ListViewLoader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/BirdGridFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/BirdMenuFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/CreateCardActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/util" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/util/AudioMeter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/util/FLACRecorder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/util/FLACStreamEncoder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/R.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/protobuf" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/protobuf/domain" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/protobuf/domain/Eng.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/protobuf/domain/AddressBookProtos.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/BuildConfig.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/MyApplication.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ResponsiveUIActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example/GaeClient" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example/GaeClient/http" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example/GaeClient/http/GaeClient.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example/GaeClient/http/SendMessageUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/slidingmenu" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/slidingmenu/lib" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/slidingmenu/lib/R.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/actionbarsherlock" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/actionbarsherlock/R.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/bin/jarlist.cache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/bin/AndroidManifest.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/gen" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/gen/com" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gen/com/zy17" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gen/com/zy17/R.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gen/com/zy17/Manifest.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gen/com/zy17/BuildConfig.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gen/com/slidingmenu" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gen/com/slidingmenu/lib" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gen/com/actionbarsherlock" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/res" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/res/layout" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/list.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/listcard.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/grid_item.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/list_grid.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/menu_frame.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/testlayout.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/create_card.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/card_detail_main.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/card_detail_text.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/card_detail_media.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/responsive_content_frame.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/values" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/values/array.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/values/dimens.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/values/strings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable/eagle.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable/shadow.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable/peacock.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable-hdpi" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable-ldpi" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable-mdpi" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable-xhdpi" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/src" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/src/com" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/src/com/zy17" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/VoiceActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/EngMenuFragment.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CardListFragment.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CardTextActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CardMediaActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CardDetailActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util/AudioMeter.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util/NetworkUtil.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util/FLACRecorder.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util/FLACStreamEncoder.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/model" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/model/Immutable.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/model/ThreadSafe.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/model/CardListModel.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/App.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/protobuf" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain/AddressBookProtos.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/GaeClient.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/SendMessageUtil.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/HttpRequestAsyncTask.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufRequestClient.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufHttpResponseHandler.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller/ReadyState.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller/CardController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller/ControllerState.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller/ControllerProtocol.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/test" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/test/com" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/test/com/example" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/test/com/example/GaeClient" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/test/com/example/GaeClient/MyActivityBackup.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/test/GaeClientTest.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/.idea" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/.idea/.name" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/scopes" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/.idea/ant.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/vcs.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/misc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/copyright" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/.idea/libraries" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/crittercism_v3_0_3_sdkonly.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_support_v4_r6.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_android_4_0_1_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_loopj_android_android_async_http_1_4_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__org_khronos_opengl_api_gl1_1_android_2_1_r1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_nostra13_universalimageloader_universal_image_loader_1_8_6.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/.idea/modules.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/compiler.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/encodings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/workspace.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/codeStyleSettings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/assets" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        <favorite_root url="file://$PROJECT_DIR$/target" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/target/classes.dex" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/target/GaeClient.apk.res" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/target/generated-sources" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/target/generated-sources/annotations" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/.project" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/build.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/.classpath" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/GaeClient.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ant.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/local.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/project.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/AndroidManifest.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/proguard-project.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+    <favorites_list name="favorites">
+      <favorite_root url="file://$PROJECT_DIR$" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/bin" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/bin/res" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          <favorite_root url="file://$PROJECT_DIR$/bin/R.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/bin/classes" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/bin/classes/com" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/BirdActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/VoiceActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/ListViewLoader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/BirdGridFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/BirdMenuFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ui/CreateCardActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/util" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/util/AudioMeter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/util/FLACRecorder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/util/FLACStreamEncoder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/R.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/protobuf" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/protobuf/domain" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/protobuf/domain/Eng.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/protobuf/domain/AddressBookProtos.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/BuildConfig.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/MyApplication.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/zy17/ResponsiveUIActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example/GaeClient" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example/GaeClient/http" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example/GaeClient/http/GaeClient.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/example/GaeClient/http/SendMessageUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/slidingmenu" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/slidingmenu/lib" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/slidingmenu/lib/R.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/actionbarsherlock" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/bin/classes/com/actionbarsherlock/R.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/bin/jarlist.cache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/bin/AndroidManifest.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/gen" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/gen/com" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gen/com/zy17" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gen/com/zy17/R.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gen/com/zy17/Manifest.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gen/com/zy17/BuildConfig.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gen/com/slidingmenu" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gen/com/slidingmenu/lib" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gen/com/actionbarsherlock" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/res" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/res/layout" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/list.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/listcard.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/grid_item.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/list_grid.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/menu_frame.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/testlayout.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/create_card.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/card_detail_main.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/card_detail_text.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/card_detail_media.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/layout/responsive_content_frame.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/values" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/values/array.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/values/dimens.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/values/strings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable/eagle.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable/shadow.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable/peacock.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable-hdpi" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable-ldpi" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable-mdpi" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/res/drawable-xhdpi" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/src" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/src/com" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/src/com/zy17" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/VoiceActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/EngMenuFragment.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CardListFragment.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CardTextActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CardMediaActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CardDetailActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util/AudioMeter.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util/NetworkUtil.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util/FLACRecorder.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/util/FLACStreamEncoder.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/model" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/model/Immutable.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/model/ThreadSafe.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/model/CardListModel.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/App.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/protobuf" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain/AddressBookProtos.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/GaeClient.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/SendMessageUtil.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/HttpRequestAsyncTask.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufRequestClient.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufHttpResponseHandler.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller/ReadyState.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller/CardController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller/ControllerState.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/controller/ControllerProtocol.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/test" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/test/com" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/test/com/example" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/test/com/example/GaeClient" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/test/com/example/GaeClient/MyActivityBackup.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/test/GaeClientTest.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/.idea" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/.idea/.name" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/scopes" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/.idea/ant.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/vcs.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/misc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/copyright" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/.idea/libraries" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/crittercism_v3_0_3_sdkonly.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_support_v4_r6.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_android_4_0_1_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_loopj_android_android_async_http_1_4_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__org_khronos_opengl_api_gl1_1_android_2_1_r1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/libraries/Maven__com_nostra13_universalimageloader_universal_image_loader_1_8_6.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/.idea/modules.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/compiler.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/encodings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/workspace.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/codeStyleSettings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/assets" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        <favorite_root url="file://$PROJECT_DIR$/target" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/target/classes.dex" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/target/GaeClient.apk.res" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/target/generated-sources" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/target/generated-sources/annotations" module="GaeClient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/.project" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/build.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/.classpath" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/GaeClient.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ant.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/local.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/project.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/AndroidManifest.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/proguard-project.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BirdGridFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java">
+      <file leaf-file-name="CardListFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/CardListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="42" selection-start="4355" selection-end="4355" vertical-scroll-proportion="0.0">
+            <state line="65" column="18" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgressDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/app/ProgressDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="11" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardDetailActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/CardDetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="0" selection-start="3035" selection-end="3035" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadyState.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/controller/ReadyState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="17" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.64285713">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1136#1769#0" expanded="true" />
+                <element signature="e#1758#1759#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateCardActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java">
+      <file leaf-file-name="HttpRequestAsyncTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/HttpRequestAsyncTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="73" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0">
+            <state line="197" column="43" selection-start="5922" selection-end="5932" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponsiveUIActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="0" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtobufRequestClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufRequestClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="63" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#801#817#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="File.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/java/io/File.java">
+      <file leaf-file-name="HttpStatus.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-14/android.jar!/org/apache/http/HttpStatus.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="960" column="23" selection-start="35270" selection-end="35270" vertical-scroll-proportion="0.0">
+            <state line="10" column="8" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createcard.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/createcard.xml">
+      <file leaf-file-name="StatusLine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar!/org/apache/http/StatusLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="44" selection-start="811" selection-end="811" vertical-scroll-proportion="26.128204">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Intent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/content/Intent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4611" column="18" selection-start="194365" selection-end="194365" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="79" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/app/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="3" selection-start="902" selection-end="902" vertical-scroll-proportion="-0.7105263">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendMessageUtil.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/SendMessageUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="20" selection-start="836" selection-end="836" vertical-scroll-proportion="0.053175777">
+            <state line="47" column="17" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -646,22 +1365,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/GaeClient/http/GaeClient.java" />
-        <option value="$PROJECT_DIR$/src/com/example/GaeClient/http/SendMessageUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/ui/VoiceActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/ui/ListViewLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/ui/ImageListActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/model/CardListModel.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/util/NetworkUtil.java" />
         <option value="$PROJECT_DIR$/src/com/zy17/MyApplication.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/GaeClient.java" />
-        <option value="$PROJECT_DIR$/res/layout/createcard.xml" />
+        <option value="$PROJECT_DIR$/src/com/zy17/App.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/XmlRequestCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufRequestCommand.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/SendMessageUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufParser.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufHttpResponseHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/CardController.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/ui/CardListFragment.java" />
+        <option value="$PROJECT_DIR$/res/values/array.xml" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/HttpRequestAsyncTask.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufRequestClient.java" />
+        <option value="$PROJECT_DIR$/src/com/zy17/controller/ReadyState.java" />
       </list>
     </option>
   </component>
@@ -694,6 +1413,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1292" />
     <option name="height" value="994" />
   </component>
@@ -748,6 +1468,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -786,8 +1508,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -800,10 +1520,11 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="E:/workDir/trunk/src/Trackup-prototype" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helloorm" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="326" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.48651254" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -816,18 +1537,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zy17.protobuf.domain" />
+      <recent name="com.zy17.GaeClient.http" />
+      <recent name="com.zy17.util" />
+      <recent name="com.zy17.controller" />
       <recent name="com.zy17.ui" />
-      <recent name="com" />
-      <recent name="domain" />
-      <recent name="protocsrc.com.zy17.protobuf.domain" />
+      <recent name="com.zy17.protobuf.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\GitHub\GaeClient\res\drawable" />
+      <recent name="E:\workspace\GitHub\GaeClient\src\com\zy17" />
       <recent name="E:\workspace\GitHub\GaeClient\res\layout" />
+      <recent name="E:\workspace\GitHub\GaeClient\res\drawable" />
       <recent name="E:\workspace\GitHub\GaeClient\res\values" />
       <recent name="E:\workspace\GitHub\GaeClient\res\" />
-      <recent name="E:\workspace\GitHub\GaeClient\res\drawable-hdpi" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zy17" />
@@ -1049,7 +1770,7 @@
     </configuration>
     <configuration default="false" name="GaeClient" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="GaeClient" />
-      <option name="ACTIVITY_CLASS" value="" />
+      <option name="ACTIVITY_CLASS" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
@@ -1153,39 +1874,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1292" height="994" extended-state="0" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1292" height="994" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2673841" sideWeight="0.6619718" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.317053" sideWeight="0.6619718" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.67107946" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2504105" sideWeight="0.6126761" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3975" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.365" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.365" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.575" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5231788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52306426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.276771" sideWeight="0.61375" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33360928" sideWeight="0.425" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33278146" sideWeight="0.6025" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2673841" sideWeight="0.425" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="824" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.317053" sideWeight="0.425" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.67107946" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1304,127 +2025,120 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../SlidingMenu/library/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/CardDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+        <state line="96" column="0" selection-start="3035" selection-end="3035" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/BirdMenuFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/values/array.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+        <state line="22" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.3847328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="243" selection-end="243" vertical-scroll-proportion="0.31304348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="0.38947368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/controller/CardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="35" selection-start="1612" selection-end="1632" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar!/org/apache/http/StatusLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="17" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar!/org/apache/http/message/BasicHttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="19" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.17681159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-14/android.jar!/org/apache/http/HttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="162" selection-end="174" vertical-scroll-proportion="0.252809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-14/android.jar!/org/apache/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="8" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-14/android.jar!/org/apache/http/client/methods/HttpGet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.104347825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ResponsiveUIActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="0" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/protobuf/domain/Eng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1333" column="56" selection-start="42671" selection-end="42671" vertical-scroll-proportion="0.83286905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/CardListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="18" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/HttpRequestAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="43" selection-start="5922" selection-end="5932" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/ProtobufRequestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="63" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#887#0" expanded="false" />
+            <element signature="e#801#817#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/content/ContextWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zy17/controller/ReadyState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="3" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.5317578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zy17/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/GaeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="47" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.12543555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3-sources.jar!/com/loopj/android/http/BinaryHttpResponseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="12" selection-start="6614" selection-end="6614" vertical-scroll-proportion="0.54634833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/app/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="3" selection-start="902" selection-end="902" vertical-scroll-proportion="-0.7105263">
+        <state line="49" column="17" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.64285713">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1136#1769#0" expanded="true" />
+            <element signature="e#1758#1759#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/content/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4611" column="18" selection-start="194365" selection-end="194365" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/createcard.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="44" selection-start="811" selection-end="811" vertical-scroll-proportion="26.128204">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/net/Uri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1146" column="14" selection-start="36068" selection-end="36074" vertical-scroll-proportion="0.3323442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/provider/MediaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="34" selection-start="9046" selection-end="9046" vertical-scroll-proportion="0.33286518">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="960" column="23" selection-start="35270" selection-end="35270" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="79" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/BirdGridFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="42" selection-start="4355" selection-end="4355" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zy17/ui/CreateCardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="73" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zy17/GaeClient/http/SendMessageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="20" selection-start="836" selection-end="836" vertical-scroll-proportion="0.053175777">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1482,7 +2196,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>library</last-edited>
+          <last-edited>GaeClient</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
